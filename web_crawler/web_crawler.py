@@ -35,7 +35,7 @@ class WebCrawler:
         
         # Detect phishing
         phishing_score = self.phishing_detector.detect_phishing(url, html_content)
-        if phishing_score > 50:
+        if phishing_score > 0:
             db_manager.store_detected_link(url, phishing_score)
             dtlinks.append({'url': url, 'phishing_score': phishing_score, 'time': datetime.now()})
             print(f"Phishing detected for {url} with score {phishing_score}%")

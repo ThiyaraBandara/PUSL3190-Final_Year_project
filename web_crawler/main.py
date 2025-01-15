@@ -32,7 +32,7 @@ def main():
         if html_content:
             db_manager.store_urlinfo(url, html_content)  # Store the initial URL's HTML content
             phishing_score = phishing_detector.detect_phishing(url, html_content)
-            if phishing_score > 50:
+            if phishing_score > 0:
                 # Test Case: http://bank.phishing.web.test.dev.asia.south.localtest.me
                 db_manager.store_detected_link(url, phishing_score)
                 detected_links.append({'url': url, 'phishing_score': phishing_score, 'time': datetime.now()})

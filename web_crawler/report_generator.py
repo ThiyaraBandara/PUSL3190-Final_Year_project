@@ -40,9 +40,9 @@ class ReportGenerator:
         for link in detected_links:
             # Calculate score color (red for high risk, green for low risk)
             score = float(link['phishing_score'])
-            if score >= 0.7:
+            if score >= 70:
                 self.pdf.set_text_color(255, 0, 0)  # Red
-            elif score <= 0.3:
+            elif score <= 30:
                 self.pdf.set_text_color(0, 128, 0)  # Green
             else:
                 self.pdf.set_text_color(0, 0, 0)    # Black
