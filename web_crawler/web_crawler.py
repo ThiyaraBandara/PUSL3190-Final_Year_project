@@ -10,6 +10,7 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from database_manager import DatabaseManager
 from datetime import datetime
+import tldextract
 
 class WebCrawler:
     def __init__(self, max_depth):
@@ -47,9 +48,20 @@ class WebCrawler:
     def extract_links(self, html_content, base_url, depth, dtlinks):
         _dtlinks = []
         soup = BeautifulSoup(html_content, 'html.parser')
+
+        # Extract the base domain for filtering
+        base_domain_info = tldextract.extract(base_url)
+        base_domain = f"{base_domain_info.domain}.{base_domain_info.suffix}"
+
         for link in soup.find_all('a', href=True):
             full_url = urljoin(base_url, link['href'])
-            _tmp = self.crawl(full_url, depth + 1, dtlinks)
-            if _tmp:
-                _dtlinks.extend(_tmp)
+            link_domain_info = tldextract.extract(full_url)
+            link_domain = f"{link_domain_info.domain}.{link_domain_info.suffix}"
+
+            # Only crawl links that are from the same domain
+            if link_domain == base_domain and link_domain_info.subdomain == '':
+                _tmp = self.crawl(full_url, depth + 1, dtlinks)  # Ensure _tmp is assigned here
+                if _tmp:  # Check _tmp within the same scope
+                    _dtlinks.extend(_tmp)
+        
         return _dtlinks
