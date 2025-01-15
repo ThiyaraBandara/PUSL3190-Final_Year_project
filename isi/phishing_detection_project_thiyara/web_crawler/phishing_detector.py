@@ -8,13 +8,13 @@ from datetime import datetime
 class PhishingDetector:
     def __init__(self):
         self.suspicious_terms = ["login", "banking", "password", "secure", "account"]
-        self.length_limit = 75
+        self.length_limit = 40
 
     def detect_phishing(self, url, html_content):
         phishing_score = 0
 
         # Check for suspicious terms in the URL
-        if any(term in url for term in self.suspicious_terms):
+        if any(term in html_content for term in self.suspicious_terms):
             phishing_score += 20
 
         # Check URL length

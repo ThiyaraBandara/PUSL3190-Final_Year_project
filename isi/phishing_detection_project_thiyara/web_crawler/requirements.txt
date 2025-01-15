@@ -1,0 +1,6 @@
+tldextract
+python-whois
+six
+mysql-connector
+fpdf2
+requests

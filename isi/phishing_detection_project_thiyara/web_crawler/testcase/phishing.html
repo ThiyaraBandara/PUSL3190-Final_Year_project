@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Banking Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .login-form {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .input-group {
+            margin-bottom: 15px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- This page contains multiple phishing indicators for testing -->
+    <div class="login-form">
+        <h1>Secure Account Access Portal</h1>
+        <p>Please verify your banking credentials to continue</p>
+        
+        <form action="http://192.168.1.1/process@secure.banking-verify.com" method="post">
+            <div class="input-group">
+                <label for="account">Account Number:</label>
+                <input type="text" id="account" name="account" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="secure-code">Security Code:</label>
+                <input type="password" id="secure-code" name="secure-code" required>
+            </div>
+            
+            <button type="submit">Login to Secure Banking</button>
+        </form>
+    </div>
+</body>
+</html>

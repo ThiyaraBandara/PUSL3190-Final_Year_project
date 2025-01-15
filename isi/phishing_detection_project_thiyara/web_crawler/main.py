@@ -5,6 +5,7 @@ from database_manager import DatabaseManager
 from web_crawler import WebCrawler
 from phishing_detector import PhishingDetector
 from report_generator import ReportGenerator
+from datetime import datetime
 
 def main():
     # Initialize classes
@@ -16,8 +17,6 @@ def main():
     report_generator = ReportGenerator()
     phishing_detector = PhishingDetector()
 
-
-
     # Get URLs from user
     urls = url_input.get_urls()
 
@@ -25,25 +24,25 @@ def main():
     web_crawler = WebCrawler(max_depth=2)
 
     detected_links = []
+    detected_links_crawled = []
     # Crawl each URL and store HTML in the database
     for url in urls:
         html_content = web_crawler.html_fetcher.fetch_html(url)
         
         if html_content:
-            db_manager.store_html(url, html_content)  # Store the initial URL's HTML content
-            #
+            db_manager.store_urlinfo(url, html_content)  # Store the initial URL's HTML content
             phishing_score = phishing_detector.detect_phishing(url, html_content)
             if phishing_score > 50:
+                # Test Case: http://bank.phishing.web.test.dev.asia.south.localtest.me
                 db_manager.store_detected_link(url, phishing_score)
-                detected_links.append({'url': url, 'phishing_score': phishing_score})
+                detected_links.append({'url': url, 'phishing_score': phishing_score, 'time': datetime.now()})
                 print(f"Phishing detected for {url} with score {phishing_score}%")
-
-              
-                web_crawler.crawl(url)  # Start crawling from the initial URL
-
+            detected_links_crawled = web_crawler.crawl(url)  # Start crawling from the initial URL
             # Generate and print the report
-    report = report_generator.generate_report(detected_links)
-    print(report)
+    
+    detected_links.extend(detected_links_crawled)
+    report_file = report_generator.generate_report(detected_links)
+    print(f"Your report has been generated at {report_file}")
     
     # Close database connection
     db_manager.close_connection()
