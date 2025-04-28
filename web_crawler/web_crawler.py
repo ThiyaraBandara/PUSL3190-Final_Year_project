@@ -1,6 +1,5 @@
 # Web crawler 
 
-
 # webcrawler.py
 
 from html_fetcher import HTMLFetcher
@@ -18,7 +17,20 @@ class WebCrawler:
         self.phishing_detector = PhishingDetector()
         self.visited_urls = set()  # To keep track of visited URLs
 
-    def crawl(self, url, depth=0, dtlinks=[]):
+    def crawl(self, url, depth=0, dtlinks=None, origin_domain=None):
+        # Initialize dtlinks if not provided
+        if dtlinks is None:
+            dtlinks = []
+            
+        # Extract domain from URL if origin_domain is not provided
+        if origin_domain is None:
+            domain_info = tldextract.extract(url)
+            origin_domain = f"{domain_info.domain}.{domain_info.suffix}"
+            
+        # Reset visited_urls for each new origin URL to ensure complete crawling
+        if depth == 0:
+            self.visited_urls = set()
+            
         if depth > self.max_depth or url in self.visited_urls:
             return dtlinks
 
@@ -36,15 +48,20 @@ class WebCrawler:
         phishing_score = self.phishing_detector.detect_phishing(url, html_content)
         if phishing_score > 0:
             db_manager.store_detected_link(url, phishing_score)
-            dtlinks.append({'url': url, 'phishing_score': phishing_score, 'time': datetime.now()})
+            dtlinks.append({
+                'url': url, 
+                'phishing_score': phishing_score, 
+                'time': datetime.now(),
+                'origin_domain': origin_domain  # Track which domain this belongs to
+            })
             print(f"Phishing detected for {url} with score {phishing_score}%")
         
         if html_content:
-            self.extract_links(html_content, url, depth, dtlinks)
+            self.extract_links(html_content, url, depth, dtlinks, origin_domain)
         
         return dtlinks
 
-    def extract_links(self, html_content, base_url, depth, dtlinks):
+    def extract_links(self, html_content, base_url, depth, dtlinks, origin_domain):
         soup = BeautifulSoup(html_content, 'html.parser')
         
         # Extract the domain with subdomains for filtering
@@ -59,9 +76,6 @@ class WebCrawler:
 
             # Check if the link's domain is the same as the base domain
             if link_domain == base_domain:
-                self.crawl(full_url, depth + 1, dtlinks)  # Recursively crawl the link
+                self.crawl(full_url, depth + 1, dtlinks, origin_domain)  # Pass the origin_domain
 
         return dtlinks
-
-
-
