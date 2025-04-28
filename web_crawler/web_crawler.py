@@ -1,6 +1,5 @@
 # Web crawler 
-# This should contain a class which uses htmlfetcher to get HTML content from given urls, then it should exrtract the links from a tags 
-# Finally it should iteratively visit every found URL until it hits a given depth.
+
 
 # webcrawler.py
 
@@ -27,10 +26,10 @@ class WebCrawler:
         self.visited_urls.add(url)
 
         html_content = self.html_fetcher.fetch_html(url)
-        db_manager = DatabaseManager(host='localhost', user='phishing', password='phishing', database='phishing_detection')
+        db_manager = DatabaseManager(host='localhost', user='root', password='123', database='phishing_detection')
         db_manager.store_urlinfo(url, html_content)
 
-        if (html_content is None):
+        if html_content is None:
             return dtlinks
         
         # Detect phishing
@@ -46,22 +45,23 @@ class WebCrawler:
         return dtlinks
 
     def extract_links(self, html_content, base_url, depth, dtlinks):
-        _dtlinks = []
         soup = BeautifulSoup(html_content, 'html.parser')
-
-        # Extract the base domain for filtering
+        
+        # Extract the domain with subdomains for filtering
         base_domain_info = tldextract.extract(base_url)
         base_domain = f"{base_domain_info.domain}.{base_domain_info.suffix}"
 
         for link in soup.find_all('a', href=True):
             full_url = urljoin(base_url, link['href'])
+            # Extract the domain from the link
             link_domain_info = tldextract.extract(full_url)
             link_domain = f"{link_domain_info.domain}.{link_domain_info.suffix}"
 
-            # Only crawl links that are from the same domain
-            if link_domain == base_domain and link_domain_info.subdomain == '':
-                _tmp = self.crawl(full_url, depth + 1, dtlinks)  # Ensure _tmp is assigned here
-                if _tmp:  # Check _tmp within the same scope
-                    _dtlinks.extend(_tmp)
-        
-        return _dtlinks
+            # Check if the link's domain is the same as the base domain
+            if link_domain == base_domain:
+                self.crawl(full_url, depth + 1, dtlinks)  # Recursively crawl the link
+
+        return dtlinks
+
+
+

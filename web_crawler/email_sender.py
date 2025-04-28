@@ -7,9 +7,16 @@ from email.mime.text import MIMEText
 import os
 
 def send_email(report_filename, receiver_email):
-    # Access environment variables
-    sender_email = os.getenv('EMAIL_USER')  # This should match the variable name set in your environment
-    password = os.getenv('EMAIL_PASS')  # This should match the variable name set in your environment
+    # Access environment variables - Remove the trailing spaces after variable names
+    sender_email = os.getenv('EMAIL_USER')  # Removed space after 'EMAIL_USER'
+    password = os.getenv('EMAIL_PASS')  # Removed space after 'EMAIL_PASS'
+    
+    # For debugging - let's verify we're getting values
+    if not sender_email or not password:
+        print("Warning: Email credentials not found in environment variables")
+        print(f"EMAIL_USER value: {sender_email}")
+        # Don't print the actual password, just whether it exists
+        print(f"EMAIL_PASS exists: {password is not None}")
 
     # Create the email
     msg = MIMEMultipart()
@@ -31,6 +38,7 @@ def send_email(report_filename, receiver_email):
 
     # Send the email
     try:
+        # Remove the space after "smtp.gmail.com"
         with smtplib.SMTP("smtp.gmail.com", 587) as server:
             server.starttls()  # Secure the connection
             server.login(sender_email, password)
@@ -38,3 +46,8 @@ def send_email(report_filename, receiver_email):
         print(f"Email sent successfully to {receiver_email}")
     except Exception as e:
         print(f"Failed to send email: {e}")
+        # For more detailed error information
+        import traceback
+        traceback.print_exc()
+
+

@@ -66,6 +66,8 @@ class ReportGenerator:
             # Write URL (with word wrap if needed)
             self.pdf.cell(140, 10, str(link['url'])[:80], 1, 0)
             self.pdf.cell(50, 10, f"{score}", 1, 1, 'C')
+
+            
             
         # Reset text color
         self.pdf.set_text_color(0, 0, 0)

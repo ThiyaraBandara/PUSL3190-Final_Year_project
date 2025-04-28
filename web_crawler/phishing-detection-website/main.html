@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Detection System</title>
+    <link rel="stylesheet" href="stylesheets.css">
+</head>
+<body>
+    <header>
+        <h1>Phishing Detection System</h1>
+        <nav>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#usage" class="nav-link">How to Use</a>
+            <a href="#troubleshooting" class="nav-link">Troubleshooting</a>
+            <a href="#github" class="nav-link">Access on GitHub</a>
+            <a href="#contact" class="nav-link">Contact Us</a>
+            <a href="#feedback" class="nav-link">User Feedback</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="card">
+            <h2>About the System</h2>
+            <p>In an increasingly digital world, protecting ourselves from online threats is crucial. Our Phishing Detection System is a command-line interface (CLI) tool designed to help users identify potential phishing URLs quickly and effectively.<br>
+
+                When users enter a URL into the CLI, our system employs web scraping techniques to extract all links from that page. Each link is then analyzed for common phishing characteristics, including words like "login," "password," and "secure," as well as any suspicious symbols or numbers. The tool also checks whether links start with HTTPS, which is essential for safe browsing.<br>
+                
+                Each URL is assigned a phishing score based on these factors. The scores are averaged to determine the overall safety of the original URL, categorizing it into one of three risk levels:<br>
+                <br>
+                <center>
+                    
+                          <ul>
+                          <li>Phishing Site: Average score of 70 or above (marked in red).</li>
+                          <li>Maybe a Phishing Site: Average score between 31 and 69 (marked in black).</li>
+                          <li>Not a Phishing Site: Average score of 30 or below (marked in green).</li>
+                          </ul>
+                    
+                </center>
+                <br>
+                To ensure users are well-informed, the tool automatically sends a detailed report to their email address, summarizing the analysis and final safety verdict.<br>
+                
+                
+                <br>
+
+                <b>Our goal is to empower users with the tools they need to navigate the web safely. With the Phishing Detection System, users can feel more secure in their online activities.</b></p></section>
+        </section>
+
+        <section id="usage" class="card">
+            <h2>How to Use</h2>
+            <ol>
+                <li>Download the tool from the <a href="https://github.com/ThiyaraBandara/PUSL3190-Final_Year_project.git" class="highlight">GitHub repository</a>.</li>
+                <li>Install required dependencies as per the documentation.</li>
+                <li>Open your command line interface and navigate to the tool's directory.</li>
+                <li>Run: <code>python phishing_detection.py</code></li>
+                <li>Follow on-screen instructions to analyze your emails or URLs.</li>
+            </ol>
+        </section>
+
+        <section id="troubleshooting" class="card">
+            <h2>Troubleshooting</h2>
+            <ul>
+                <li>Ensure you have the latest Python version installed.</li>
+                <li>Check all dependencies are installed correctly.</li>
+                <li>Consult error messages for resolution guidance.</li>
+            </ul>
+        </section>
+
+        <section id="github" class="card">
+            <h2>Access on GitHub</h2>
+            <p>Access the source code and documentation on GitHub: <a href="https://github.com/your-repo-link" target="_blank" class="highlight">GitHub Repository</a></p>
+            <p>To clone the repository, run:</p>
+            <pre><code>git clone https://github.com/your-repo-link.git</code></pre>
+        </section>
+
+        <section id="contact" class="card">
+            <h2>Contact Us</h2>
+            <p>For inquiries or assistance, contact us:</p>
+            <p>Email: <a href="mailto:your-email@example.com" class="highlight">k4253160@gmail.com</a></p>
+        </section>
+        
+
+        <section id="feedback" class="card">
+            <h2>User Feedback</h2>
+            <p>We value your thoughts and suggestions! Please take a moment to fill out our <a href="https://docs.google.com/forms/d/e/1FAIpQLScYeba4G9QmX5lyV3eRUigr7dP6OApbDA5u_imKWX2orQmbkQ/viewform" target="_blank" class="highlight">Feedback Form</a>.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Phishing Detection System. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -12,7 +12,7 @@ def main():
     url_input = URLInput()
 
     # Initialize database manager with your credentials
-    db_manager = DatabaseManager(host='localhost', user='phishing', password='phishing', database='phishing_detection')
+    db_manager = DatabaseManager(host='localhost', user='root', password='123', database='phishing_detection')
 
     report_generator = ReportGenerator()
     phishing_detector = PhishingDetector()
@@ -53,8 +53,4 @@ if __name__ == "__main__":
 
 
 
-    # Instead of implementing html_fether here, implement the web_crawler class here.
-    # Then, implement a function which uses the html_fether to grab the a tag links from the HTML
-    # Finally, visit all the links iteratively and do the same until you reach the depth limit
-    # 
-    # webcr
+    
