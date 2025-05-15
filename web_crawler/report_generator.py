@@ -162,7 +162,7 @@ class ReportGenerator:
                 if self.pdf.get_y() > 230:  # If less than ~60px left on page
                     self.pdf.add_page()
                 
-                self.pdf.ln(5)
+                self.pdf.ln(5)  # Ensure summary lines start at the left margin
                 self.pdf.set_font('Arial', 'B', 11)
                 self.pdf.cell(0, 10, f'Summary for {domain}:', ln=True)
                 
@@ -176,7 +176,7 @@ class ReportGenerator:
                 else:
                     summary_text = "May be a phishing site (mixed results)."
                     self.pdf.set_text_color(0, 0, 0)  # Black
-                    
+                
                 self.pdf.set_font('Arial', '', 10)
                 self.pdf.multi_cell(0, 10, summary_text)
                 
@@ -187,12 +187,12 @@ class ReportGenerator:
                 # If close to bottom of page, add a new page
                 if self.pdf.get_y() > 240:
                     self.pdf.add_page()
-                    
-                # Display counts and average score with guaranteed complete visibility
-                self.pdf.cell(0, 10, f"High Risk URLs: {phishing_count}", ln=True)
-                self.pdf.cell(0, 10, f"Medium Risk URLs: {medium_count}", ln=True)
-                self.pdf.cell(0, 10, f"Low Risk URLs: {safe_count}", ln=True)
-                self.pdf.cell(0, 10, f"Average Phishing Score: {average_score:.2f}%", ln=True)
+                
+                self.pdf.ln()  # Add a line break before summary lines
+                self.pdf.cell(0, 10, f"High Risk URLs: {phishing_count}", ln=True, align='L')
+                self.pdf.cell(0, 10, f"Medium Risk URLs: {medium_count}", ln=True, align='L')
+                self.pdf.cell(0, 10, f"Low Risk URLs: {safe_count}", ln=True, align='L')
+                self.pdf.cell(0, 10, f"Average Phishing Score: {average_score:.2f}%", ln=True, align='L')
                 
                 # Add separator between websites
                 self.pdf.line(10, self.pdf.get_y() + 5, 200, self.pdf.get_y() + 5)

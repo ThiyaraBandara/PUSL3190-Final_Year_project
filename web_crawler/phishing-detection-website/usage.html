@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Use - Phishing Detection System</title>
+    <link rel="stylesheet" href="stylesheets.css">
+</head>
+<body>
+    <header class="sticky-header">
+        <h1><span class="icon">🔒</span> Phishing Detection System</h1>
+        <nav>
+            <a href="main.html" class="nav-link">About</a>
+            <a href="github.html" class="nav-link">How to Access</a>
+            <a href="usage.html" class="nav-link">How to Use</a>
+            <a href="troubleshooting.html" class="nav-link">Troubleshooting</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="feedback.html" class="nav-link">Feedback</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>How to Use</h2>
+            <p>Learn how to use our Phishing Detection System effectively.</p>
+        </div>
+    </section>
+
+    <main>
+        <section>
+            <h2>How to Use</h2>
+            <h3>Follow the steps below to run and use the phishing detection tool:</h3>
+            <h4 style="margin-bottom: 32px; margin-top: 48px;">1. Prerequisites</h4>
+            <p style="margin-bottom: 24px;">Ensure your system has the following installed:</p>
+            <ul style="list-style-position: inside; display: table; margin: 0 auto 32px auto; text-align: left;">
+                <li><img src="images/python-icon.png" alt="Python Icon" style="width: 20px; height: 20px; vertical-align: middle;"> Python 3.7 or higher</li>
+                <li>pip (Python package manager)</li>
+                <li><img src="images/terminal-icon.png" alt="Terminal Icon" style="width: 20px; height: 20px; vertical-align: middle;"> A terminal or command-line interface (e.g., Command Prompt, Terminal, Bash)</li>
+                <li><img src="images/github-icon.png" alt="GitHub Icon" style="width: 20px; height: 20px; vertical-align: middle;"> Git (optional, if you cloned from a repository)</li>
+            </ul>
+            <hr style="border: 1px dotted #ccc; margin: 32px 0;">
+            <h4 style="margin-bottom: 32px; margin-top: 48px;">2. Navigate to the Project Directory</h4>
+            <p style="margin-bottom: 24px;">Once the project files are extracted from the ZIP (web_crawler.zip) or cloned from the repository:</p>
+            <div class="code-block"><code>cd path/to/web_crawler</code></div>
+            <p style="margin-bottom: 24px;">Replace <code>path/to/web_crawler</code> with the actual path where you extracted or cloned the project.</p>
+            <hr style="border: 1px dotted #ccc; margin: 32px 0;">
+            <h4 style="margin-bottom: 32px; margin-top: 48px;">3. Set Up a Virtual Environment (Optional but Recommended)</h4>
+            <div class="code-block"><code>python -m venv venv
+source venv/bin/activate     # On Windows: venv\Scripts\activate</code></div>
+            <hr style="border: 1px dotted #ccc; margin: 32px 0;">
+            <h4 style="margin-bottom: 32px; margin-top: 48px;">4. Install Dependencies</h4>
+            <p style="margin-bottom: 24px;">The project might include a requirements.txt file. Run the following command to install all the required Python libraries:</p>
+            <div class="code-block"><code>pip install -r requirements.txt</code></div>
+            <hr style="border: 1px dotted #ccc; margin: 32px 0;">
+            <h4 style="margin-bottom: 32px; margin-top: 48px;">5. Run the Tool</h4>
+            <p style="margin-bottom: 24px;">The core of this phishing detection tool is a command-line program. To start the program, use:</p>
+            <div class="code-block"><code>python main.py</code></div>
+            <p style="margin-bottom: 24px;">If the entry script has a different name (e.g., app.py, cli.py, or similar), replace <code>main.py</code> with the appropriate filename.</p>
+            <hr style="border: 1px dotted #ccc; margin: 32px 0;">
+            <h4 style="margin-bottom: 32px; margin-top: 48px;">6. Input URLs for Analysis</h4>
+            <p style="margin-bottom: 24px;">The tool allows you to analyze multiple URLs in one session. Follow these steps:</p>
+            
+            <h5 style="margin: 24px 0 16px 0;">Step 1: Enter the first URL</h5>
+            <div class="code-block"><code>Enter the URL to analyze: http://example.com</code></div>
+            
+            <h5 style="margin: 24px 0 16px 0;">Step 2: Add more URLs (Optional)</h5>
+            <p style="margin-bottom: 16px;">If you want to analyze more URLs, enter them one by one:</p>
+            <div class="code-block"><code>Enter another URL (or type 'done' to finish): http://example2.com</code></div>
+            
+            <h5 style="margin: 24px 0 16px 0;">Step 3: Start the Analysis</h5>
+            <p style="margin-bottom: 16px;">When you have entered all URLs you want to analyze, type 'done':</p>
+            <div class="code-block"><code>Enter another URL (or type 'done' to finish): done</code></div>
+            <p style="margin-bottom: 24px;">After typing 'done', the tool will begin crawling and analyzing all the URLs you've entered.</p>
+            
+            <div class="note-box" style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 16px; margin: 24px 0;">
+                <strong>Note:</strong> You can enter as many URLs as you need. The analysis will only begin after you type 'done'.
+            </div>
+            
+            <hr style="border: 1px dotted #ccc; margin: 32px 0;">
+            <h4 style="margin-bottom: 32px; margin-top: 48px;">7. Email Report</h4>
+            <p style="margin-bottom: 24px;">After the crawling process is complete, you'll be prompted to enter an email address to receive the analysis report:</p>
+            <div class="code-block"><code>Enter email address for the report: your.email@example.com</code></div>
+            <p style="margin-bottom: 24px;">The system will:</p>
+            <ul style="list-style-position: inside; display: table; margin: 0 auto 32px auto; text-align: left;">
+                <li>Send a detailed report to your email address</li>
+                <li>Save a copy of the report in the local 'reports' directory</li>
+                <li>Display a confirmation message in the terminal</li>
+            </ul>
+            <div class="code-block"><code>Report has been sent to: your.email@example.com<br>Report saved locally at: reports/analysis_report_[timestamp].txt</code></div>
+            <hr style="border: 1px dotted #ccc; margin: 32px 0;">
+            <h4 style="margin-bottom: 32px; margin-top: 48px;">8. Understanding the Report</h4>
+            <p style="margin-bottom: 24px;">The analysis report will be delivered to your email and saved locally. The report includes:</p>
+            <ul style="list-style-position: inside; display: table; margin: 0 auto 32px auto; text-align: left;">
+                <li>Detailed analysis of each URL</li>
+                <li>Individual phishing scores for each URL</li>
+                <li>Final classification based on the average phishing score of all analyzed URLs:
+                    <ul>
+                        <li><span style="color: #dc3545;">PHISHING</span> - High risk (Average Score 70+)</li>
+                        <li><span style="color: #000000;">MAYBE PHISHING</span> - Medium risk (Average Score 31-69)</li>
+                        <li><span style="color: #28a745;">NOT PHISHING</span> - Low risk (Average Score 0-30)</li>
+                    </ul>
+                </li>
+                <li>Specific reasons for the classification</li>
+                <li>Recommendations for each analyzed URL</li>
+            </ul>
+            <div class="note-box" style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 16px; margin: 24px 0;">
+                <strong>Note:</strong> The terminal will only show confirmation messages about the report delivery. The actual analysis results are available in the email report and local file. The final classification is determined by calculating the average phishing score across all analyzed URLs.
+            </div>
+            <hr style="border: 1px dotted #ccc; margin: 32px 0;">
+            <h4 style="margin-bottom: 32px; margin-top: 48px;">9. Exit the Program</h4>
+            <p style="margin-bottom: 24px;">After finishing analysis, you can exit the CLI by pressing:</p>
+            <div class="code-block"><code>Ctrl + C</code></div>
+            <p style="margin-bottom: 24px;">Or follow any quit command provided within the CLI itself.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Phishing Detection System. All rights reserved.</p>
+            <nav>
+                <a href="main.html">About</a> |
+                <a href="github.html">How to Access</a> |
+                <a href="usage.html">How to Use</a> |
+                <a href="troubleshooting.html">Troubleshooting</a> |
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html> 

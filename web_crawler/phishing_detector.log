@@ -7483,3 +7483,825 @@
 2025-04-28 23:04:01,359 - fontTools.subset - INFO - OS/2 CodePage ranges pruned: [0]
 2025-04-28 23:04:01,359 - fontTools.subset - INFO - glyf pruned
 2025-04-28 23:04:01,361 - fontTools.subset - INFO - name pruned
+2025-04-30 14:04:37,341 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com
+2025-04-30 14:04:37,341 - PhishingDetector - INFO - Suspicious terms score: 6.0
+2025-04-30 14:04:37,341 - PhishingDetector - INFO - URL length: Passed
+2025-04-30 14:04:37,348 - PhishingDetector - INFO - Special characters: Passed
+2025-04-30 14:04:37,348 - PhishingDetector - INFO - IP address check: Passed
+2025-04-30 14:04:37,348 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-04-30 14:04:37,348 - PhishingDetector - INFO - HTTPS check: Passed
+2025-04-30 14:04:39,502 - PhishingDetector - INFO - Domain age check: Passed (domain is 1627 days old)
+2025-04-30 14:04:39,502 - PhishingDetector - INFO - Password fields check: Passed
+2025-04-30 14:04:39,502 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-04-30 14:04:39,502 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-04-30 14:04:39,502 - PhishingDetector - INFO - Iframe check: Passed
+2025-04-30 14:04:39,502 - PhishingDetector - INFO - Urgency language check: Passed
+2025-04-30 14:04:39,502 - PhishingDetector - INFO - Fake security indicators: Passed
+2025-04-30 14:04:39,502 - PhishingDetector - INFO - Sensitive info requests: Passed
+2025-04-30 14:04:39,502 - PhishingDetector - INFO - Countdown timer: Passed
+2025-04-30 14:04:39,502 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-04-30 14:04:39,502 - PhishingDetector - INFO - Total phishing score: 6.0
+2025-04-30 14:04:39,502 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 6.0, 'url_length': 0, 'special_chars': 0, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 0, 'sensitive_info_requests': 0, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-04-30 14:04:40,453 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com
+2025-04-30 14:04:40,453 - PhishingDetector - INFO - Suspicious terms score: 6.0
+2025-04-30 14:04:40,453 - PhishingDetector - INFO - URL length: Passed
+2025-04-30 14:04:40,453 - PhishingDetector - INFO - Special characters: Passed
+2025-04-30 14:04:40,453 - PhishingDetector - INFO - IP address check: Passed
+2025-04-30 14:04:40,453 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-04-30 14:04:40,453 - PhishingDetector - INFO - HTTPS check: Passed
+2025-04-30 14:04:41,850 - PhishingDetector - INFO - Domain age check: Passed (domain is 1627 days old)
+2025-04-30 14:04:41,850 - PhishingDetector - INFO - Password fields check: Passed
+2025-04-30 14:04:41,850 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-04-30 14:04:41,850 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-04-30 14:04:41,850 - PhishingDetector - INFO - Iframe check: Passed
+2025-04-30 14:04:41,850 - PhishingDetector - INFO - Urgency language check: Passed
+2025-04-30 14:04:41,850 - PhishingDetector - INFO - Fake security indicators: Passed
+2025-04-30 14:04:41,850 - PhishingDetector - INFO - Sensitive info requests: Passed
+2025-04-30 14:04:41,850 - PhishingDetector - INFO - Countdown timer: Passed
+2025-04-30 14:04:41,850 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-04-30 14:04:41,850 - PhishingDetector - INFO - Total phishing score: 6.0
+2025-04-30 14:04:41,850 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 6.0, 'url_length': 0, 'special_chars': 0, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 0, 'sensitive_info_requests': 0, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-04-30 14:04:42,791 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com#intro
+2025-04-30 14:04:42,799 - PhishingDetector - INFO - Suspicious terms score: 6.0
+2025-04-30 14:04:42,799 - PhishingDetector - INFO - URL length: Passed
+2025-04-30 14:04:42,802 - PhishingDetector - INFO - Special characters: Failed (1 found)
+2025-04-30 14:04:42,802 - PhishingDetector - INFO - IP address check: Passed
+2025-04-30 14:04:42,802 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-04-30 14:04:42,802 - PhishingDetector - INFO - HTTPS check: Passed
+2025-04-30 14:04:44,172 - PhishingDetector - INFO - Domain age check: Passed (domain is 1627 days old)
+2025-04-30 14:04:44,172 - PhishingDetector - INFO - Password fields check: Passed
+2025-04-30 14:04:44,172 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-04-30 14:04:44,172 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-04-30 14:04:44,172 - PhishingDetector - INFO - Iframe check: Passed
+2025-04-30 14:04:44,172 - PhishingDetector - INFO - Urgency language check: Passed
+2025-04-30 14:04:44,172 - PhishingDetector - INFO - Fake security indicators: Passed
+2025-04-30 14:04:44,172 - PhishingDetector - INFO - Sensitive info requests: Passed
+2025-04-30 14:04:44,172 - PhishingDetector - INFO - Countdown timer: Passed
+2025-04-30 14:04:44,172 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-04-30 14:04:44,172 - PhishingDetector - INFO - Total phishing score: 9.0
+2025-04-30 14:04:44,172 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 6.0, 'url_length': 0, 'special_chars': 3, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 0, 'sensitive_info_requests': 0, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-04-30 14:04:45,071 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com#about
+2025-04-30 14:04:45,071 - PhishingDetector - INFO - Suspicious terms score: 6.0
+2025-04-30 14:04:45,071 - PhishingDetector - INFO - URL length: Passed
+2025-04-30 14:04:45,071 - PhishingDetector - INFO - Special characters: Failed (1 found)
+2025-04-30 14:04:45,071 - PhishingDetector - INFO - IP address check: Passed
+2025-04-30 14:04:45,071 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-04-30 14:04:45,071 - PhishingDetector - INFO - HTTPS check: Passed
+2025-04-30 14:04:46,552 - PhishingDetector - INFO - Domain age check: Passed (domain is 1627 days old)
+2025-04-30 14:04:46,552 - PhishingDetector - INFO - Password fields check: Passed
+2025-04-30 14:04:46,552 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-04-30 14:04:46,552 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-04-30 14:04:46,552 - PhishingDetector - INFO - Iframe check: Passed
+2025-04-30 14:04:46,552 - PhishingDetector - INFO - Urgency language check: Passed
+2025-04-30 14:04:46,552 - PhishingDetector - INFO - Fake security indicators: Passed
+2025-04-30 14:04:46,558 - PhishingDetector - INFO - Sensitive info requests: Passed
+2025-04-30 14:04:46,558 - PhishingDetector - INFO - Countdown timer: Passed
+2025-04-30 14:04:46,558 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-04-30 14:04:46,558 - PhishingDetector - INFO - Total phishing score: 9.0
+2025-04-30 14:04:46,558 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 6.0, 'url_length': 0, 'special_chars': 3, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 0, 'sensitive_info_requests': 0, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-04-30 14:04:47,417 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com#contact
+2025-04-30 14:04:47,420 - PhishingDetector - INFO - Suspicious terms score: 6.0
+2025-04-30 14:04:47,420 - PhishingDetector - INFO - URL length: Passed
+2025-04-30 14:04:47,422 - PhishingDetector - INFO - Special characters: Failed (1 found)
+2025-04-30 14:04:47,422 - PhishingDetector - INFO - IP address check: Passed
+2025-04-30 14:04:47,422 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-04-30 14:04:47,422 - PhishingDetector - INFO - HTTPS check: Passed
+2025-04-30 14:04:49,102 - PhishingDetector - INFO - Domain age check: Passed (domain is 1627 days old)
+2025-04-30 14:04:49,102 - PhishingDetector - INFO - Password fields check: Passed
+2025-04-30 14:04:49,102 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-04-30 14:04:49,102 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-04-30 14:04:49,102 - PhishingDetector - INFO - Iframe check: Passed
+2025-04-30 14:04:49,102 - PhishingDetector - INFO - Urgency language check: Passed
+2025-04-30 14:04:49,102 - PhishingDetector - INFO - Fake security indicators: Passed
+2025-04-30 14:04:49,102 - PhishingDetector - INFO - Sensitive info requests: Passed
+2025-04-30 14:04:49,102 - PhishingDetector - INFO - Countdown timer: Passed
+2025-04-30 14:04:49,102 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-04-30 14:04:49,102 - PhishingDetector - INFO - Total phishing score: 9.0
+2025-04-30 14:04:49,102 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 6.0, 'url_length': 0, 'special_chars': 3, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 0, 'sensitive_info_requests': 0, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-04-30 14:04:49,852 - PhishingDetector - INFO - Analyzing URL: https://blog.isiraadithya.com
+2025-04-30 14:04:49,877 - PhishingDetector - INFO - Suspicious terms score: 10.5
+2025-04-30 14:04:49,877 - PhishingDetector - INFO - URL length: Passed
+2025-04-30 14:04:49,877 - PhishingDetector - INFO - Special characters: Passed
+2025-04-30 14:04:49,877 - PhishingDetector - INFO - IP address check: Passed
+2025-04-30 14:04:49,877 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-04-30 14:04:49,877 - PhishingDetector - INFO - HTTPS check: Passed
+2025-04-30 14:04:51,338 - PhishingDetector - INFO - Domain age check: Passed (domain is 1627 days old)
+2025-04-30 14:04:51,346 - PhishingDetector - INFO - Password fields check: Passed
+2025-04-30 14:04:51,348 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-04-30 14:04:51,350 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-04-30 14:04:51,350 - PhishingDetector - INFO - Iframe check: Passed
+2025-04-30 14:04:51,357 - PhishingDetector - INFO - Urgency language check: Passed
+2025-04-30 14:04:51,357 - PhishingDetector - INFO - Fake security indicators: Failed (4 found)
+2025-04-30 14:04:51,363 - PhishingDetector - INFO - Sensitive info requests: Failed (3 types found)
+2025-04-30 14:04:51,368 - PhishingDetector - INFO - Countdown timer: Passed
+2025-04-30 14:04:51,368 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-04-30 14:04:51,370 - PhishingDetector - INFO - Total phishing score: 35.5
+2025-04-30 14:04:51,370 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 10.5, 'url_length': 0, 'special_chars': 0, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 5.0, 'sensitive_info_requests': 20, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-04-30 20:05:05,073 - fontTools.subset - INFO - maxp pruned
+2025-04-30 20:05:05,075 - fontTools.subset - INFO - LTSH dropped
+2025-04-30 20:05:05,081 - fontTools.subset - INFO - hdmx dropped
+2025-04-30 20:05:05,081 - fontTools.subset - INFO - cmap pruned
+2025-04-30 20:05:05,085 - fontTools.subset - INFO - kern pruned
+2025-04-30 20:05:05,085 - fontTools.subset - INFO - post pruned
+2025-04-30 20:05:05,085 - fontTools.subset - INFO - PCLT dropped
+2025-04-30 20:05:05,085 - fontTools.subset - INFO - JSTF dropped
+2025-04-30 20:05:05,085 - fontTools.subset - INFO - DSIG dropped
+2025-04-30 20:05:05,085 - fontTools.subset - INFO - GDEF dropped
+2025-04-30 20:05:05,085 - fontTools.subset - INFO - GSUB dropped
+2025-04-30 20:05:05,097 - fontTools.subset - INFO - glyf pruned
+2025-04-30 20:05:05,101 - fontTools.subset - INFO - Added gid0 to subset
+2025-04-30 20:05:05,101 - fontTools.subset - INFO - Added first four glyphs to subset
+2025-04-30 20:05:05,101 - fontTools.subset - INFO - Closing glyph list over 'glyf': 59 glyphs before
+2025-04-30 20:05:05,101 - fontTools.subset - INFO - Glyph names: ['.notdef', '.null', 'A', 'B', 'G', 'H', 'L', 'M', 'N', 'P', 'R', 'S', 'U', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'k', 'l', 'less', 'm', 'n', 'nine', 'nonmarkingreturn', 'numbersign', 'o', 'one', 'p', 'parenleft', 'parenright', 'percent', 'period', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'u', 'v', 'w', 'y', 'zero']
+2025-04-30 20:05:05,101 - fontTools.subset - INFO - Glyph IDs:   [0, 1, 2, 3, 6, 8, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 36, 37, 42, 43, 47, 48, 49, 51, 53, 54, 56, 68, 69, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 92, 94, 96]
+2025-04-30 20:05:05,101 - fontTools.subset - INFO - Closed glyph list over 'glyf': 59 glyphs after
+2025-04-30 20:05:05,101 - fontTools.subset - INFO - Glyph names: ['.notdef', '.null', 'A', 'B', 'G', 'H', 'L', 'M', 'N', 'P', 'R', 'S', 'U', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'k', 'l', 'less', 'm', 'n', 'nine', 'nonmarkingreturn', 'numbersign', 'o', 'one', 'p', 'parenleft', 'parenright', 'percent', 'period', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'u', 'v', 'w', 'y', 'zero']
+2025-04-30 20:05:05,101 - fontTools.subset - INFO - Glyph IDs:   [0, 1, 2, 3, 6, 8, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 36, 37, 42, 43, 47, 48, 49, 51, 53, 54, 56, 68, 69, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 92, 94, 96]
+2025-04-30 20:05:05,101 - fontTools.subset - INFO - Retaining 59 glyphs
+2025-04-30 20:05:05,101 - fontTools.subset - INFO - head subsetting not needed
+2025-04-30 20:05:05,101 - fontTools.subset - INFO - hhea subsetting not needed
+2025-04-30 20:05:05,101 - fontTools.subset - INFO - maxp subsetting not needed
+2025-04-30 20:05:05,101 - fontTools.subset - INFO - OS/2 subsetting not needed
+2025-04-30 20:05:05,101 - fontTools.subset - INFO - hmtx subsetted
+2025-04-30 20:05:05,101 - fontTools.subset - INFO - VDMX subsetting not needed
+2025-04-30 20:05:05,103 - fontTools.subset - INFO - cmap subsetted
+2025-04-30 20:05:05,103 - fontTools.subset - INFO - fpgm subsetting not needed
+2025-04-30 20:05:05,103 - fontTools.subset - INFO - prep subsetting not needed
+2025-04-30 20:05:05,103 - fontTools.subset - INFO - cvt  subsetting not needed
+2025-04-30 20:05:05,103 - fontTools.subset - INFO - loca subsetting not needed
+2025-04-30 20:05:05,103 - fontTools.subset - INFO - kern subsetted
+2025-04-30 20:05:05,103 - fontTools.subset - INFO - post subsetted
+2025-04-30 20:05:05,103 - fontTools.subset - INFO - gasp subsetting not needed
+2025-04-30 20:05:05,103 - fontTools.subset - INFO - name subsetting not needed
+2025-04-30 20:05:05,103 - fontTools.subset - INFO - glyf subsetted
+2025-04-30 20:05:05,103 - fontTools.subset - INFO - head pruned
+2025-04-30 20:05:05,103 - fontTools.subset - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2025-04-30 20:05:05,103 - fontTools.subset - INFO - OS/2 CodePage ranges pruned: [0]
+2025-04-30 20:05:05,104 - fontTools.subset - INFO - glyf pruned
+2025-04-30 20:05:05,106 - fontTools.subset - INFO - name pruned
+2025-05-05 00:17:34,427 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com/
+2025-05-05 00:17:34,435 - PhishingDetector - INFO - Suspicious terms score: 12.0
+2025-05-05 00:17:34,435 - PhishingDetector - INFO - URL length: Passed
+2025-05-05 00:17:34,435 - PhishingDetector - INFO - Special characters: Passed
+2025-05-05 00:17:34,435 - PhishingDetector - INFO - IP address check: Passed
+2025-05-05 00:17:34,435 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-05 00:17:34,435 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-05 00:17:36,611 - PhishingDetector - INFO - Domain age check: Passed (domain is 1631 days old)
+2025-05-05 00:17:36,613 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-05 00:17:36,613 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-05 00:17:36,613 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-05 00:17:36,613 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-05 00:17:36,615 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-05 00:17:36,615 - PhishingDetector - INFO - Fake security indicators: Failed (8 found)
+2025-05-05 00:17:36,615 - PhishingDetector - INFO - Sensitive info requests: Failed (1 types found)
+2025-05-05 00:17:36,617 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-05 00:17:36,617 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-05 00:17:36,617 - PhishingDetector - INFO - Total phishing score: 32.0
+2025-05-05 00:17:36,617 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 12.0, 'url_length': 0, 'special_chars': 0, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 10, 'sensitive_info_requests': 10, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-05 00:17:37,516 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com/
+2025-05-05 00:17:37,523 - PhishingDetector - INFO - Suspicious terms score: 12.0
+2025-05-05 00:17:37,523 - PhishingDetector - INFO - URL length: Passed
+2025-05-05 00:17:37,523 - PhishingDetector - INFO - Special characters: Passed
+2025-05-05 00:17:37,523 - PhishingDetector - INFO - IP address check: Passed
+2025-05-05 00:17:37,525 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-05 00:17:37,525 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-05 00:17:39,072 - PhishingDetector - INFO - Domain age check: Passed (domain is 1631 days old)
+2025-05-05 00:17:39,072 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-05 00:17:39,072 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-05 00:17:39,072 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-05 00:17:39,072 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-05 00:17:39,072 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-05 00:17:39,075 - PhishingDetector - INFO - Fake security indicators: Failed (8 found)
+2025-05-05 00:17:39,075 - PhishingDetector - INFO - Sensitive info requests: Failed (1 types found)
+2025-05-05 00:17:39,076 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-05 00:17:39,076 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-05 00:17:39,076 - PhishingDetector - INFO - Total phishing score: 32.0
+2025-05-05 00:17:39,076 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 12.0, 'url_length': 0, 'special_chars': 0, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 10, 'sensitive_info_requests': 10, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-05 00:17:39,929 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com/#intro
+2025-05-05 00:17:39,934 - PhishingDetector - INFO - Suspicious terms score: 12.0
+2025-05-05 00:17:39,934 - PhishingDetector - INFO - URL length: Passed
+2025-05-05 00:17:39,934 - PhishingDetector - INFO - Special characters: Failed (1 found)
+2025-05-05 00:17:39,934 - PhishingDetector - INFO - IP address check: Passed
+2025-05-05 00:17:39,934 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-05 00:17:39,934 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-05 00:17:41,585 - PhishingDetector - INFO - Domain age check: Passed (domain is 1631 days old)
+2025-05-05 00:17:41,585 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-05 00:17:41,585 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-05 00:17:41,587 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-05 00:17:41,587 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-05 00:17:41,588 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-05 00:17:41,588 - PhishingDetector - INFO - Fake security indicators: Failed (8 found)
+2025-05-05 00:17:41,588 - PhishingDetector - INFO - Sensitive info requests: Failed (1 types found)
+2025-05-05 00:17:41,590 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-05 00:17:41,590 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-05 00:17:41,590 - PhishingDetector - INFO - Total phishing score: 35.0
+2025-05-05 00:17:41,590 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 12.0, 'url_length': 0, 'special_chars': 3, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 10, 'sensitive_info_requests': 10, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-05 00:17:42,509 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com/#about
+2025-05-05 00:17:42,517 - PhishingDetector - INFO - Suspicious terms score: 12.0
+2025-05-05 00:17:42,518 - PhishingDetector - INFO - URL length: Passed
+2025-05-05 00:17:42,518 - PhishingDetector - INFO - Special characters: Failed (1 found)
+2025-05-05 00:17:42,518 - PhishingDetector - INFO - IP address check: Passed
+2025-05-05 00:17:42,518 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-05 00:17:42,518 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-05 00:17:44,174 - PhishingDetector - INFO - Domain age check: Passed (domain is 1631 days old)
+2025-05-05 00:17:44,175 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-05 00:17:44,175 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-05 00:17:44,176 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-05 00:17:44,176 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-05 00:17:44,177 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-05 00:17:44,178 - PhishingDetector - INFO - Fake security indicators: Failed (8 found)
+2025-05-05 00:17:44,179 - PhishingDetector - INFO - Sensitive info requests: Failed (1 types found)
+2025-05-05 00:17:44,179 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-05 00:17:44,179 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-05 00:17:44,179 - PhishingDetector - INFO - Total phishing score: 35.0
+2025-05-05 00:17:44,179 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 12.0, 'url_length': 0, 'special_chars': 3, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 10, 'sensitive_info_requests': 10, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-05 00:17:45,038 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com/#contact
+2025-05-05 00:17:45,044 - PhishingDetector - INFO - Suspicious terms score: 12.0
+2025-05-05 00:17:45,044 - PhishingDetector - INFO - URL length: Passed
+2025-05-05 00:17:45,044 - PhishingDetector - INFO - Special characters: Failed (1 found)
+2025-05-05 00:17:45,044 - PhishingDetector - INFO - IP address check: Passed
+2025-05-05 00:17:45,044 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-05 00:17:45,044 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-05 00:17:46,426 - PhishingDetector - INFO - Domain age check: Passed (domain is 1631 days old)
+2025-05-05 00:17:46,426 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-05 00:17:46,426 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-05 00:17:46,426 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-05 00:17:46,426 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-05 00:17:46,428 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-05 00:17:46,428 - PhishingDetector - INFO - Fake security indicators: Failed (8 found)
+2025-05-05 00:17:46,430 - PhishingDetector - INFO - Sensitive info requests: Failed (1 types found)
+2025-05-05 00:17:46,430 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-05 00:17:46,430 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-05 00:17:46,430 - PhishingDetector - INFO - Total phishing score: 35.0
+2025-05-05 00:17:46,430 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 12.0, 'url_length': 0, 'special_chars': 3, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 10, 'sensitive_info_requests': 10, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-05 00:17:47,037 - PhishingDetector - INFO - Analyzing URL: https://blog.isiraadithya.com
+2025-05-05 00:17:47,054 - PhishingDetector - INFO - Suspicious terms score: 10.5
+2025-05-05 00:17:47,054 - PhishingDetector - INFO - URL length: Passed
+2025-05-05 00:17:47,054 - PhishingDetector - INFO - Special characters: Passed
+2025-05-05 00:17:47,056 - PhishingDetector - INFO - IP address check: Passed
+2025-05-05 00:17:47,056 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-05 00:17:47,056 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-05 00:17:48,480 - PhishingDetector - INFO - Domain age check: Passed (domain is 1631 days old)
+2025-05-05 00:17:48,480 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-05 00:17:48,480 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-05 00:17:48,480 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-05 00:17:48,480 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-05 00:17:48,482 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-05 00:17:48,483 - PhishingDetector - INFO - Fake security indicators: Failed (4 found)
+2025-05-05 00:17:48,483 - PhishingDetector - INFO - Sensitive info requests: Failed (3 types found)
+2025-05-05 00:17:48,484 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-05 00:17:48,484 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-05 00:17:48,484 - PhishingDetector - INFO - Total phishing score: 35.5
+2025-05-05 00:17:48,484 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 10.5, 'url_length': 0, 'special_chars': 0, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 5.0, 'sensitive_info_requests': 20, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-05 00:18:43,528 - fontTools.subset - INFO - maxp pruned
+2025-05-05 00:18:43,528 - fontTools.subset - INFO - LTSH dropped
+2025-05-05 00:18:43,529 - fontTools.subset - INFO - hdmx dropped
+2025-05-05 00:18:43,529 - fontTools.subset - INFO - cmap pruned
+2025-05-05 00:18:43,533 - fontTools.subset - INFO - kern pruned
+2025-05-05 00:18:43,533 - fontTools.subset - INFO - post pruned
+2025-05-05 00:18:43,533 - fontTools.subset - INFO - PCLT dropped
+2025-05-05 00:18:43,533 - fontTools.subset - INFO - JSTF dropped
+2025-05-05 00:18:43,535 - fontTools.subset - INFO - DSIG dropped
+2025-05-05 00:18:43,535 - fontTools.subset - INFO - GDEF dropped
+2025-05-05 00:18:43,535 - fontTools.subset - INFO - GSUB dropped
+2025-05-05 00:18:43,538 - fontTools.subset - INFO - glyf pruned
+2025-05-05 00:18:43,540 - fontTools.subset - INFO - Added gid0 to subset
+2025-05-05 00:18:43,540 - fontTools.subset - INFO - Added first four glyphs to subset
+2025-05-05 00:18:43,540 - fontTools.subset - INFO - Closing glyph list over 'glyf': 59 glyphs before
+2025-05-05 00:18:43,542 - fontTools.subset - INFO - Glyph names: ['.notdef', '.null', 'A', 'B', 'G', 'H', 'L', 'M', 'P', 'R', 'S', 'U', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'k', 'l', 'less', 'm', 'n', 'nine', 'nonmarkingreturn', 'numbersign', 'o', 'one', 'p', 'parenleft', 'parenright', 'percent', 'period', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'u', 'v', 'w', 'x', 'y', 'zero']
+2025-05-05 00:18:43,542 - fontTools.subset - INFO - Glyph IDs:   [0, 1, 2, 3, 6, 8, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 36, 37, 42, 43, 47, 48, 51, 53, 54, 56, 68, 69, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 94, 96]
+2025-05-05 00:18:43,542 - fontTools.subset - INFO - Closed glyph list over 'glyf': 59 glyphs after
+2025-05-05 00:18:43,542 - fontTools.subset - INFO - Glyph names: ['.notdef', '.null', 'A', 'B', 'G', 'H', 'L', 'M', 'P', 'R', 'S', 'U', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'k', 'l', 'less', 'm', 'n', 'nine', 'nonmarkingreturn', 'numbersign', 'o', 'one', 'p', 'parenleft', 'parenright', 'percent', 'period', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'u', 'v', 'w', 'x', 'y', 'zero']
+2025-05-05 00:18:43,542 - fontTools.subset - INFO - Glyph IDs:   [0, 1, 2, 3, 6, 8, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 36, 37, 42, 43, 47, 48, 51, 53, 54, 56, 68, 69, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 94, 96]
+2025-05-05 00:18:43,542 - fontTools.subset - INFO - Retaining 59 glyphs
+2025-05-05 00:18:43,542 - fontTools.subset - INFO - head subsetting not needed
+2025-05-05 00:18:43,542 - fontTools.subset - INFO - hhea subsetting not needed
+2025-05-05 00:18:43,542 - fontTools.subset - INFO - maxp subsetting not needed
+2025-05-05 00:18:43,542 - fontTools.subset - INFO - OS/2 subsetting not needed
+2025-05-05 00:18:43,542 - fontTools.subset - INFO - hmtx subsetted
+2025-05-05 00:18:43,542 - fontTools.subset - INFO - VDMX subsetting not needed
+2025-05-05 00:18:43,544 - fontTools.subset - INFO - cmap subsetted
+2025-05-05 00:18:43,544 - fontTools.subset - INFO - fpgm subsetting not needed
+2025-05-05 00:18:43,544 - fontTools.subset - INFO - prep subsetting not needed
+2025-05-05 00:18:43,544 - fontTools.subset - INFO - cvt  subsetting not needed
+2025-05-05 00:18:43,544 - fontTools.subset - INFO - loca subsetting not needed
+2025-05-05 00:18:43,544 - fontTools.subset - INFO - kern subsetted
+2025-05-05 00:18:43,544 - fontTools.subset - INFO - post subsetted
+2025-05-05 00:18:43,544 - fontTools.subset - INFO - gasp subsetting not needed
+2025-05-05 00:18:43,544 - fontTools.subset - INFO - name subsetting not needed
+2025-05-05 00:18:43,547 - fontTools.subset - INFO - glyf subsetted
+2025-05-05 00:18:43,547 - fontTools.subset - INFO - head pruned
+2025-05-05 00:18:43,547 - fontTools.subset - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2025-05-05 00:18:43,548 - fontTools.subset - INFO - OS/2 CodePage ranges pruned: [0]
+2025-05-05 00:18:43,549 - fontTools.subset - INFO - glyf pruned
+2025-05-05 00:18:43,554 - fontTools.subset - INFO - name pruned
+2025-05-05 10:06:40,695 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com/
+2025-05-05 10:06:40,699 - PhishingDetector - INFO - Suspicious terms score: 12.0
+2025-05-05 10:06:40,699 - PhishingDetector - INFO - URL length: Passed
+2025-05-05 10:06:40,701 - PhishingDetector - INFO - Special characters: Passed
+2025-05-05 10:06:40,701 - PhishingDetector - INFO - IP address check: Passed
+2025-05-05 10:06:40,701 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-05 10:06:40,701 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-05 10:06:43,582 - PhishingDetector - INFO - Domain age check: Passed (domain is 1631 days old)
+2025-05-05 10:06:43,582 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-05 10:06:43,582 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-05 10:06:43,582 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-05 10:06:43,582 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-05 10:06:43,586 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-05 10:06:43,586 - PhishingDetector - INFO - Fake security indicators: Failed (8 found)
+2025-05-05 10:06:43,586 - PhishingDetector - INFO - Sensitive info requests: Failed (1 types found)
+2025-05-05 10:06:43,589 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-05 10:06:43,589 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-05 10:06:43,589 - PhishingDetector - INFO - Total phishing score: 32.0
+2025-05-05 10:06:43,589 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 12.0, 'url_length': 0, 'special_chars': 0, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 10, 'sensitive_info_requests': 10, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-05 10:06:45,138 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com/
+2025-05-05 10:06:45,146 - PhishingDetector - INFO - Suspicious terms score: 12.0
+2025-05-05 10:06:45,146 - PhishingDetector - INFO - URL length: Passed
+2025-05-05 10:06:45,146 - PhishingDetector - INFO - Special characters: Passed
+2025-05-05 10:06:45,146 - PhishingDetector - INFO - IP address check: Passed
+2025-05-05 10:06:45,146 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-05 10:06:45,146 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-05 10:06:48,974 - PhishingDetector - INFO - Domain age check: Passed (domain is 1631 days old)
+2025-05-05 10:06:48,976 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-05 10:06:48,976 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-05 10:06:48,976 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-05 10:06:48,976 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-05 10:06:48,976 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-05 10:06:48,979 - PhishingDetector - INFO - Fake security indicators: Failed (8 found)
+2025-05-05 10:06:48,979 - PhishingDetector - INFO - Sensitive info requests: Failed (1 types found)
+2025-05-05 10:06:48,979 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-05 10:06:48,979 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-05 10:06:48,979 - PhishingDetector - INFO - Total phishing score: 32.0
+2025-05-05 10:06:48,979 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 12.0, 'url_length': 0, 'special_chars': 0, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 10, 'sensitive_info_requests': 10, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-05 10:06:52,818 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com/#intro
+2025-05-05 10:06:52,825 - PhishingDetector - INFO - Suspicious terms score: 12.0
+2025-05-05 10:06:52,825 - PhishingDetector - INFO - URL length: Passed
+2025-05-05 10:06:52,825 - PhishingDetector - INFO - Special characters: Failed (1 found)
+2025-05-05 10:06:52,825 - PhishingDetector - INFO - IP address check: Passed
+2025-05-05 10:06:52,825 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-05 10:06:52,825 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-05 10:06:54,392 - PhishingDetector - INFO - Domain age check: Passed (domain is 1631 days old)
+2025-05-05 10:06:54,394 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-05 10:06:54,394 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-05 10:06:54,396 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-05 10:06:54,396 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-05 10:06:54,401 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-05 10:06:54,401 - PhishingDetector - INFO - Fake security indicators: Failed (8 found)
+2025-05-05 10:06:54,406 - PhishingDetector - INFO - Sensitive info requests: Failed (1 types found)
+2025-05-05 10:06:54,410 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-05 10:06:54,410 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-05 10:06:54,410 - PhishingDetector - INFO - Total phishing score: 35.0
+2025-05-05 10:06:54,410 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 12.0, 'url_length': 0, 'special_chars': 3, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 10, 'sensitive_info_requests': 10, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-05 10:06:55,796 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com/#about
+2025-05-05 10:06:55,804 - PhishingDetector - INFO - Suspicious terms score: 12.0
+2025-05-05 10:06:55,804 - PhishingDetector - INFO - URL length: Passed
+2025-05-05 10:06:55,804 - PhishingDetector - INFO - Special characters: Failed (1 found)
+2025-05-05 10:06:55,804 - PhishingDetector - INFO - IP address check: Passed
+2025-05-05 10:06:55,804 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-05 10:06:55,804 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-05 10:06:57,246 - PhishingDetector - INFO - Domain age check: Passed (domain is 1631 days old)
+2025-05-05 10:06:57,246 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-05 10:06:57,246 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-05 10:06:57,249 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-05 10:06:57,249 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-05 10:06:57,250 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-05 10:06:57,250 - PhishingDetector - INFO - Fake security indicators: Failed (8 found)
+2025-05-05 10:06:57,250 - PhishingDetector - INFO - Sensitive info requests: Failed (1 types found)
+2025-05-05 10:06:57,250 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-05 10:06:57,250 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-05 10:06:57,250 - PhishingDetector - INFO - Total phishing score: 35.0
+2025-05-05 10:06:57,250 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 12.0, 'url_length': 0, 'special_chars': 3, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 10, 'sensitive_info_requests': 10, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-05 10:06:58,106 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com/#contact
+2025-05-05 10:06:58,111 - PhishingDetector - INFO - Suspicious terms score: 12.0
+2025-05-05 10:06:58,111 - PhishingDetector - INFO - URL length: Passed
+2025-05-05 10:06:58,111 - PhishingDetector - INFO - Special characters: Failed (1 found)
+2025-05-05 10:06:58,111 - PhishingDetector - INFO - IP address check: Passed
+2025-05-05 10:06:58,111 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-05 10:06:58,111 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-05 10:06:59,476 - PhishingDetector - INFO - Domain age check: Passed (domain is 1631 days old)
+2025-05-05 10:06:59,476 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-05 10:06:59,476 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-05 10:06:59,476 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-05 10:06:59,476 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-05 10:06:59,482 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-05 10:06:59,482 - PhishingDetector - INFO - Fake security indicators: Failed (8 found)
+2025-05-05 10:06:59,482 - PhishingDetector - INFO - Sensitive info requests: Failed (1 types found)
+2025-05-05 10:06:59,485 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-05 10:06:59,485 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-05 10:06:59,485 - PhishingDetector - INFO - Total phishing score: 35.0
+2025-05-05 10:06:59,486 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 12.0, 'url_length': 0, 'special_chars': 3, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 10, 'sensitive_info_requests': 10, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-05 10:07:00,121 - PhishingDetector - INFO - Analyzing URL: https://blog.isiraadithya.com
+2025-05-05 10:07:00,132 - PhishingDetector - INFO - Suspicious terms score: 10.5
+2025-05-05 10:07:00,132 - PhishingDetector - INFO - URL length: Passed
+2025-05-05 10:07:00,132 - PhishingDetector - INFO - Special characters: Passed
+2025-05-05 10:07:00,132 - PhishingDetector - INFO - IP address check: Passed
+2025-05-05 10:07:00,132 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-05 10:07:00,132 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-05 10:07:02,159 - PhishingDetector - INFO - Domain age check: Passed (domain is 1631 days old)
+2025-05-05 10:07:02,159 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-05 10:07:02,159 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-05 10:07:02,159 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-05 10:07:02,159 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-05 10:07:02,165 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-05 10:07:02,165 - PhishingDetector - INFO - Fake security indicators: Failed (4 found)
+2025-05-05 10:07:02,167 - PhishingDetector - INFO - Sensitive info requests: Failed (3 types found)
+2025-05-05 10:07:02,167 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-05 10:07:02,167 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-05 10:07:02,167 - PhishingDetector - INFO - Total phishing score: 35.5
+2025-05-05 10:07:02,167 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 10.5, 'url_length': 0, 'special_chars': 0, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 5.0, 'sensitive_info_requests': 20, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-05 10:08:35,195 - fontTools.subset - INFO - maxp pruned
+2025-05-05 10:08:35,195 - fontTools.subset - INFO - LTSH dropped
+2025-05-05 10:08:35,197 - fontTools.subset - INFO - hdmx dropped
+2025-05-05 10:08:35,197 - fontTools.subset - INFO - cmap pruned
+2025-05-05 10:08:35,210 - fontTools.subset - INFO - kern pruned
+2025-05-05 10:08:35,210 - fontTools.subset - INFO - post pruned
+2025-05-05 10:08:35,210 - fontTools.subset - INFO - PCLT dropped
+2025-05-05 10:08:35,210 - fontTools.subset - INFO - JSTF dropped
+2025-05-05 10:08:35,210 - fontTools.subset - INFO - DSIG dropped
+2025-05-05 10:08:35,210 - fontTools.subset - INFO - GDEF dropped
+2025-05-05 10:08:35,210 - fontTools.subset - INFO - GSUB dropped
+2025-05-05 10:08:35,222 - fontTools.subset - INFO - glyf pruned
+2025-05-05 10:08:35,227 - fontTools.subset - INFO - Added gid0 to subset
+2025-05-05 10:08:35,227 - fontTools.subset - INFO - Added first four glyphs to subset
+2025-05-05 10:08:35,227 - fontTools.subset - INFO - Closing glyph list over 'glyf': 59 glyphs before
+2025-05-05 10:08:35,227 - fontTools.subset - INFO - Glyph names: ['.notdef', '.null', 'A', 'B', 'G', 'H', 'L', 'M', 'P', 'R', 'S', 'U', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'k', 'l', 'less', 'm', 'n', 'nine', 'nonmarkingreturn', 'numbersign', 'o', 'one', 'p', 'parenleft', 'parenright', 'percent', 'period', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'u', 'v', 'w', 'x', 'y', 'zero']
+2025-05-05 10:08:35,229 - fontTools.subset - INFO - Glyph IDs:   [0, 1, 2, 3, 6, 8, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 36, 37, 42, 43, 47, 48, 51, 53, 54, 56, 68, 69, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 94, 96]
+2025-05-05 10:08:35,229 - fontTools.subset - INFO - Closed glyph list over 'glyf': 59 glyphs after
+2025-05-05 10:08:35,229 - fontTools.subset - INFO - Glyph names: ['.notdef', '.null', 'A', 'B', 'G', 'H', 'L', 'M', 'P', 'R', 'S', 'U', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'k', 'l', 'less', 'm', 'n', 'nine', 'nonmarkingreturn', 'numbersign', 'o', 'one', 'p', 'parenleft', 'parenright', 'percent', 'period', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'u', 'v', 'w', 'x', 'y', 'zero']
+2025-05-05 10:08:35,230 - fontTools.subset - INFO - Glyph IDs:   [0, 1, 2, 3, 6, 8, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 36, 37, 42, 43, 47, 48, 51, 53, 54, 56, 68, 69, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 94, 96]
+2025-05-05 10:08:35,230 - fontTools.subset - INFO - Retaining 59 glyphs
+2025-05-05 10:08:35,230 - fontTools.subset - INFO - head subsetting not needed
+2025-05-05 10:08:35,230 - fontTools.subset - INFO - hhea subsetting not needed
+2025-05-05 10:08:35,230 - fontTools.subset - INFO - maxp subsetting not needed
+2025-05-05 10:08:35,230 - fontTools.subset - INFO - OS/2 subsetting not needed
+2025-05-05 10:08:35,230 - fontTools.subset - INFO - hmtx subsetted
+2025-05-05 10:08:35,230 - fontTools.subset - INFO - VDMX subsetting not needed
+2025-05-05 10:08:35,230 - fontTools.subset - INFO - cmap subsetted
+2025-05-05 10:08:35,230 - fontTools.subset - INFO - fpgm subsetting not needed
+2025-05-05 10:08:35,230 - fontTools.subset - INFO - prep subsetting not needed
+2025-05-05 10:08:35,230 - fontTools.subset - INFO - cvt  subsetting not needed
+2025-05-05 10:08:35,230 - fontTools.subset - INFO - loca subsetting not needed
+2025-05-05 10:08:35,237 - fontTools.subset - INFO - kern subsetted
+2025-05-05 10:08:35,239 - fontTools.subset - INFO - post subsetted
+2025-05-05 10:08:35,241 - fontTools.subset - INFO - gasp subsetting not needed
+2025-05-05 10:08:35,242 - fontTools.subset - INFO - name subsetting not needed
+2025-05-05 10:08:35,243 - fontTools.subset - INFO - glyf subsetted
+2025-05-05 10:08:35,247 - fontTools.subset - INFO - head pruned
+2025-05-05 10:08:35,249 - fontTools.subset - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2025-05-05 10:08:35,251 - fontTools.subset - INFO - OS/2 CodePage ranges pruned: [0]
+2025-05-05 10:08:35,257 - fontTools.subset - INFO - glyf pruned
+2025-05-05 10:08:35,277 - fontTools.subset - INFO - name pruned
+2025-05-05 10:46:04,506 - PhishingDetector - INFO - Analyzing URL: https://motley-capricious-angora.glitch.me/phishing.html
+2025-05-05 10:46:04,506 - PhishingDetector - INFO - Suspicious terms score: 25
+2025-05-05 10:46:04,506 - PhishingDetector - INFO - URL length: Failed (too long)
+2025-05-05 10:46:04,506 - PhishingDetector - INFO - Special characters: Passed
+2025-05-05 10:46:04,506 - PhishingDetector - INFO - IP address check: Passed
+2025-05-05 10:46:04,506 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-05 10:46:04,506 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-05 10:46:07,865 - PhishingDetector - INFO - Domain age check: Passed (domain is 6134 days old)
+2025-05-05 10:46:07,865 - PhishingDetector - INFO - Password fields check: Failed (3 found)
+2025-05-05 10:46:07,865 - PhishingDetector - INFO - Excessive form fields: Failed (7 found)
+2025-05-05 10:46:07,865 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-05 10:46:07,866 - PhishingDetector - INFO - Iframe check: Failed (1 found)
+2025-05-05 10:46:07,866 - PhishingDetector - INFO - Urgency language check: Failed (5 terms found)
+2025-05-05 10:46:07,866 - PhishingDetector - INFO - Fake security indicators: Failed (12 found)
+2025-05-05 10:46:07,866 - PhishingDetector - INFO - Sensitive info requests: Failed (4 types found)
+2025-05-05 10:46:07,866 - PhishingDetector - INFO - Countdown timer: Failed (detected)
+2025-05-05 10:46:07,866 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-05 10:46:07,866 - PhishingDetector - INFO - Total phishing score: 100
+2025-05-05 10:46:07,866 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 25, 'url_length': 15, 'special_chars': 0, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 15, 'excessive_forms': 2, 'hidden_elements': 0, 'iframes': 5, 'urgency_language': 15, 'fake_security': 10, 'sensitive_info_requests': 20, 'countdown_timer': 10, 'brand_impersonation': 0}
+2025-05-05 10:46:08,606 - PhishingDetector - INFO - Analyzing URL: https://motley-capricious-angora.glitch.me/phishing.html
+2025-05-05 10:46:08,606 - PhishingDetector - INFO - Suspicious terms score: 25
+2025-05-05 10:46:08,606 - PhishingDetector - INFO - URL length: Failed (too long)
+2025-05-05 10:46:08,606 - PhishingDetector - INFO - Special characters: Passed
+2025-05-05 10:46:08,606 - PhishingDetector - INFO - IP address check: Passed
+2025-05-05 10:46:08,606 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-05 10:46:08,606 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-05 10:46:11,328 - PhishingDetector - INFO - Domain age check: Passed (domain is 6134 days old)
+2025-05-05 10:46:11,329 - PhishingDetector - INFO - Password fields check: Failed (3 found)
+2025-05-05 10:46:11,329 - PhishingDetector - INFO - Excessive form fields: Failed (7 found)
+2025-05-05 10:46:11,329 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-05 10:46:11,329 - PhishingDetector - INFO - Iframe check: Failed (1 found)
+2025-05-05 10:46:11,329 - PhishingDetector - INFO - Urgency language check: Failed (5 terms found)
+2025-05-05 10:46:11,329 - PhishingDetector - INFO - Fake security indicators: Failed (12 found)
+2025-05-05 10:46:11,329 - PhishingDetector - INFO - Sensitive info requests: Failed (4 types found)
+2025-05-05 10:46:11,331 - PhishingDetector - INFO - Countdown timer: Failed (detected)
+2025-05-05 10:46:11,331 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-05 10:46:11,331 - PhishingDetector - INFO - Total phishing score: 100
+2025-05-05 10:46:11,331 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 25, 'url_length': 15, 'special_chars': 0, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 15, 'excessive_forms': 2, 'hidden_elements': 0, 'iframes': 5, 'urgency_language': 15, 'fake_security': 10, 'sensitive_info_requests': 20, 'countdown_timer': 10, 'brand_impersonation': 0}
+2025-05-05 10:46:24,717 - fontTools.subset - INFO - maxp pruned
+2025-05-05 10:46:24,717 - fontTools.subset - INFO - LTSH dropped
+2025-05-05 10:46:24,717 - fontTools.subset - INFO - hdmx dropped
+2025-05-05 10:46:24,717 - fontTools.subset - INFO - cmap pruned
+2025-05-05 10:46:24,724 - fontTools.subset - INFO - kern pruned
+2025-05-05 10:46:24,724 - fontTools.subset - INFO - post pruned
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - PCLT dropped
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - JSTF dropped
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - DSIG dropped
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - GDEF dropped
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - GSUB dropped
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - glyf pruned
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - Added gid0 to subset
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - Added first four glyphs to subset
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - Closing glyph list over 'glyf': 58 glyphs before
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - Glyph names: ['.notdef', '.null', 'A', 'B', 'D', 'G', 'H', 'L', 'M', 'P', 'R', 'S', 'U', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'k', 'l', 'less', 'm', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'percent', 'period', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'u', 'v', 'w', 'y', 'zero']
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - Glyph IDs:   [0, 1, 2, 3, 8, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 36, 37, 39, 42, 43, 47, 48, 51, 53, 54, 56, 68, 69, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 92, 94, 96]
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - Closed glyph list over 'glyf': 58 glyphs after
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - Glyph names: ['.notdef', '.null', 'A', 'B', 'D', 'G', 'H', 'L', 'M', 'P', 'R', 'S', 'U', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'k', 'l', 'less', 'm', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'percent', 'period', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'u', 'v', 'w', 'y', 'zero']
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - Glyph IDs:   [0, 1, 2, 3, 8, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 36, 37, 39, 42, 43, 47, 48, 51, 53, 54, 56, 68, 69, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 92, 94, 96]
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - Retaining 58 glyphs
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - head subsetting not needed
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - hhea subsetting not needed
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - maxp subsetting not needed
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - OS/2 subsetting not needed
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - hmtx subsetted
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - VDMX subsetting not needed
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - cmap subsetted
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - fpgm subsetting not needed
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - prep subsetting not needed
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - cvt  subsetting not needed
+2025-05-05 10:46:24,726 - fontTools.subset - INFO - loca subsetting not needed
+2025-05-05 10:46:24,732 - fontTools.subset - INFO - kern subsetted
+2025-05-05 10:46:24,732 - fontTools.subset - INFO - post subsetted
+2025-05-05 10:46:24,732 - fontTools.subset - INFO - gasp subsetting not needed
+2025-05-05 10:46:24,732 - fontTools.subset - INFO - name subsetting not needed
+2025-05-05 10:46:24,732 - fontTools.subset - INFO - glyf subsetted
+2025-05-05 10:46:24,732 - fontTools.subset - INFO - head pruned
+2025-05-05 10:46:24,732 - fontTools.subset - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2025-05-05 10:46:24,732 - fontTools.subset - INFO - OS/2 CodePage ranges pruned: [0]
+2025-05-05 10:46:24,732 - fontTools.subset - INFO - glyf pruned
+2025-05-05 10:46:24,732 - fontTools.subset - INFO - name pruned
+2025-05-15 16:44:41,446 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com/
+2025-05-15 16:44:41,454 - PhishingDetector - INFO - Suspicious terms score: 12.0
+2025-05-15 16:44:41,454 - PhishingDetector - INFO - URL length: Passed
+2025-05-15 16:44:41,454 - PhishingDetector - INFO - Special characters: Passed
+2025-05-15 16:44:41,454 - PhishingDetector - INFO - IP address check: Passed
+2025-05-15 16:44:41,454 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-15 16:44:41,454 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-15 16:44:44,519 - PhishingDetector - INFO - Domain age check: Passed (domain is 1642 days old)
+2025-05-15 16:44:44,521 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-15 16:44:44,521 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-15 16:44:44,521 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-15 16:44:44,521 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-15 16:44:44,525 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-15 16:44:44,525 - PhishingDetector - INFO - Fake security indicators: Failed (8 found)
+2025-05-15 16:44:44,525 - PhishingDetector - INFO - Sensitive info requests: Failed (1 types found)
+2025-05-15 16:44:44,527 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-15 16:44:44,527 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-15 16:44:44,527 - PhishingDetector - INFO - Total phishing score: 32.0
+2025-05-15 16:44:44,527 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 12.0, 'url_length': 0, 'special_chars': 0, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 10, 'sensitive_info_requests': 10, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-15 16:44:45,924 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com/
+2025-05-15 16:44:45,939 - PhishingDetector - INFO - Suspicious terms score: 12.0
+2025-05-15 16:44:45,939 - PhishingDetector - INFO - URL length: Passed
+2025-05-15 16:44:45,939 - PhishingDetector - INFO - Special characters: Passed
+2025-05-15 16:44:45,939 - PhishingDetector - INFO - IP address check: Passed
+2025-05-15 16:44:45,939 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-15 16:44:45,939 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-15 16:44:49,311 - PhishingDetector - INFO - Domain age check: Passed (domain is 1642 days old)
+2025-05-15 16:44:49,311 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-15 16:44:49,311 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-15 16:44:49,311 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-15 16:44:49,311 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-15 16:44:49,311 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-15 16:44:49,311 - PhishingDetector - INFO - Fake security indicators: Failed (8 found)
+2025-05-15 16:44:49,311 - PhishingDetector - INFO - Sensitive info requests: Failed (1 types found)
+2025-05-15 16:44:49,321 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-15 16:44:49,321 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-15 16:44:49,321 - PhishingDetector - INFO - Total phishing score: 32.0
+2025-05-15 16:44:49,321 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 12.0, 'url_length': 0, 'special_chars': 0, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 10, 'sensitive_info_requests': 10, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-15 16:44:50,648 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com/#intro
+2025-05-15 16:44:50,662 - PhishingDetector - INFO - Suspicious terms score: 12.0
+2025-05-15 16:44:50,662 - PhishingDetector - INFO - URL length: Passed
+2025-05-15 16:44:50,662 - PhishingDetector - INFO - Special characters: Failed (1 found)
+2025-05-15 16:44:50,662 - PhishingDetector - INFO - IP address check: Passed
+2025-05-15 16:44:50,662 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-15 16:44:50,662 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-15 16:44:52,036 - PhishingDetector - INFO - Domain age check: Passed (domain is 1642 days old)
+2025-05-15 16:44:52,039 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-15 16:44:52,039 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-15 16:44:52,039 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-15 16:44:52,039 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-15 16:44:52,043 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-15 16:44:52,043 - PhishingDetector - INFO - Fake security indicators: Failed (8 found)
+2025-05-15 16:44:52,045 - PhishingDetector - INFO - Sensitive info requests: Failed (1 types found)
+2025-05-15 16:44:52,045 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-15 16:44:52,045 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-15 16:44:52,045 - PhishingDetector - INFO - Total phishing score: 35.0
+2025-05-15 16:44:52,045 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 12.0, 'url_length': 0, 'special_chars': 3, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 10, 'sensitive_info_requests': 10, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-15 16:44:52,922 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com/#about
+2025-05-15 16:44:52,931 - PhishingDetector - INFO - Suspicious terms score: 12.0
+2025-05-15 16:44:52,931 - PhishingDetector - INFO - URL length: Passed
+2025-05-15 16:44:52,931 - PhishingDetector - INFO - Special characters: Failed (1 found)
+2025-05-15 16:44:52,931 - PhishingDetector - INFO - IP address check: Passed
+2025-05-15 16:44:52,931 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-15 16:44:52,931 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-15 16:44:54,399 - PhishingDetector - INFO - Domain age check: Passed (domain is 1642 days old)
+2025-05-15 16:44:54,402 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-15 16:44:54,402 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-15 16:44:54,402 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-15 16:44:54,402 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-15 16:44:54,404 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-15 16:44:54,406 - PhishingDetector - INFO - Fake security indicators: Failed (8 found)
+2025-05-15 16:44:54,406 - PhishingDetector - INFO - Sensitive info requests: Failed (1 types found)
+2025-05-15 16:44:54,408 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-15 16:44:54,408 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-15 16:44:54,408 - PhishingDetector - INFO - Total phishing score: 35.0
+2025-05-15 16:44:54,408 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 12.0, 'url_length': 0, 'special_chars': 3, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 10, 'sensitive_info_requests': 10, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-15 16:44:55,329 - PhishingDetector - INFO - Analyzing URL: https://isiraadithya.com/#contact
+2025-05-15 16:44:55,336 - PhishingDetector - INFO - Suspicious terms score: 12.0
+2025-05-15 16:44:55,339 - PhishingDetector - INFO - URL length: Passed
+2025-05-15 16:44:55,339 - PhishingDetector - INFO - Special characters: Failed (1 found)
+2025-05-15 16:44:55,339 - PhishingDetector - INFO - IP address check: Passed
+2025-05-15 16:44:55,339 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-15 16:44:55,339 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-15 16:44:56,927 - PhishingDetector - INFO - Domain age check: Passed (domain is 1642 days old)
+2025-05-15 16:44:56,927 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-15 16:44:56,927 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-15 16:44:56,929 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-15 16:44:56,929 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-15 16:44:56,929 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-15 16:44:56,931 - PhishingDetector - INFO - Fake security indicators: Failed (8 found)
+2025-05-15 16:44:56,931 - PhishingDetector - INFO - Sensitive info requests: Failed (1 types found)
+2025-05-15 16:44:56,931 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-15 16:44:56,931 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-15 16:44:56,931 - PhishingDetector - INFO - Total phishing score: 35.0
+2025-05-15 16:44:56,931 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 12.0, 'url_length': 0, 'special_chars': 3, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 10, 'sensitive_info_requests': 10, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-15 16:44:58,799 - PhishingDetector - INFO - Analyzing URL: https://blog.isiraadithya.com
+2025-05-15 16:44:58,809 - PhishingDetector - INFO - Suspicious terms score: 10.5
+2025-05-15 16:44:58,809 - PhishingDetector - INFO - URL length: Passed
+2025-05-15 16:44:58,811 - PhishingDetector - INFO - Special characters: Passed
+2025-05-15 16:44:58,811 - PhishingDetector - INFO - IP address check: Passed
+2025-05-15 16:44:58,811 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-15 16:44:58,811 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-15 16:45:00,345 - PhishingDetector - INFO - Domain age check: Passed (domain is 1642 days old)
+2025-05-15 16:45:00,345 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-15 16:45:00,345 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-15 16:45:00,345 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-15 16:45:00,345 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-15 16:45:00,349 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-15 16:45:00,351 - PhishingDetector - INFO - Fake security indicators: Failed (4 found)
+2025-05-15 16:45:00,351 - PhishingDetector - INFO - Sensitive info requests: Failed (3 types found)
+2025-05-15 16:45:00,353 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-15 16:45:00,353 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-15 16:45:00,353 - PhishingDetector - INFO - Total phishing score: 35.5
+2025-05-15 16:45:00,353 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 10.5, 'url_length': 0, 'special_chars': 0, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 5.0, 'sensitive_info_requests': 20, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-15 16:45:15,115 - fontTools.subset - INFO - maxp pruned
+2025-05-15 16:45:15,115 - fontTools.subset - INFO - LTSH dropped
+2025-05-15 16:45:15,117 - fontTools.subset - INFO - hdmx dropped
+2025-05-15 16:45:15,117 - fontTools.subset - INFO - cmap pruned
+2025-05-15 16:45:15,121 - fontTools.subset - INFO - kern pruned
+2025-05-15 16:45:15,121 - fontTools.subset - INFO - post pruned
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - PCLT dropped
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - JSTF dropped
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - DSIG dropped
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - GDEF dropped
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - GSUB dropped
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - glyf pruned
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - Added gid0 to subset
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - Added first four glyphs to subset
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - Closing glyph list over 'glyf': 59 glyphs before
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - Glyph names: ['.notdef', '.null', 'A', 'B', 'G', 'H', 'L', 'M', 'P', 'R', 'S', 'U', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'k', 'l', 'less', 'm', 'n', 'nine', 'nonmarkingreturn', 'numbersign', 'o', 'one', 'p', 'parenleft', 'parenright', 'percent', 'period', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'u', 'v', 'w', 'x', 'y', 'zero']
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - Glyph IDs:   [0, 1, 2, 3, 6, 8, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 36, 37, 42, 43, 47, 48, 51, 53, 54, 56, 68, 69, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 94, 96]
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - Closed glyph list over 'glyf': 59 glyphs after
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - Glyph names: ['.notdef', '.null', 'A', 'B', 'G', 'H', 'L', 'M', 'P', 'R', 'S', 'U', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'k', 'l', 'less', 'm', 'n', 'nine', 'nonmarkingreturn', 'numbersign', 'o', 'one', 'p', 'parenleft', 'parenright', 'percent', 'period', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'u', 'v', 'w', 'x', 'y', 'zero']
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - Glyph IDs:   [0, 1, 2, 3, 6, 8, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 36, 37, 42, 43, 47, 48, 51, 53, 54, 56, 68, 69, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 94, 96]
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - Retaining 59 glyphs
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - head subsetting not needed
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - hhea subsetting not needed
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - maxp subsetting not needed
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - OS/2 subsetting not needed
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - hmtx subsetted
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - VDMX subsetting not needed
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - cmap subsetted
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - fpgm subsetting not needed
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - prep subsetting not needed
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - cvt  subsetting not needed
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - loca subsetting not needed
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - kern subsetted
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - post subsetted
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - gasp subsetting not needed
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - name subsetting not needed
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - glyf subsetted
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - head pruned
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - OS/2 CodePage ranges pruned: [0]
+2025-05-15 16:45:15,126 - fontTools.subset - INFO - glyf pruned
+2025-05-15 16:45:15,133 - fontTools.subset - INFO - name pruned
+2025-05-15 16:49:58,491 - PhishingDetector - INFO - Analyzing URL: https://blog.isiraadithya.com
+2025-05-15 16:49:58,495 - PhishingDetector - INFO - Suspicious terms score: 10.5
+2025-05-15 16:49:58,495 - PhishingDetector - INFO - URL length: Passed
+2025-05-15 16:49:58,495 - PhishingDetector - INFO - Special characters: Passed
+2025-05-15 16:49:58,495 - PhishingDetector - INFO - IP address check: Passed
+2025-05-15 16:49:58,495 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-15 16:49:58,495 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-15 16:50:01,098 - PhishingDetector - INFO - Domain age check: Passed (domain is 1642 days old)
+2025-05-15 16:50:01,104 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-15 16:50:01,104 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-15 16:50:01,104 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-15 16:50:01,104 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-15 16:50:01,104 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-15 16:50:01,104 - PhishingDetector - INFO - Fake security indicators: Failed (4 found)
+2025-05-15 16:50:01,104 - PhishingDetector - INFO - Sensitive info requests: Failed (3 types found)
+2025-05-15 16:50:01,104 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-15 16:50:01,104 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-15 16:50:01,104 - PhishingDetector - INFO - Total phishing score: 35.5
+2025-05-15 16:50:01,104 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 10.5, 'url_length': 0, 'special_chars': 0, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 5.0, 'sensitive_info_requests': 20, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-15 16:50:01,631 - PhishingDetector - INFO - Analyzing URL: https://blog.isiraadithya.com
+2025-05-15 16:50:01,643 - PhishingDetector - INFO - Suspicious terms score: 10.5
+2025-05-15 16:50:01,643 - PhishingDetector - INFO - URL length: Passed
+2025-05-15 16:50:01,643 - PhishingDetector - INFO - Special characters: Passed
+2025-05-15 16:50:01,643 - PhishingDetector - INFO - IP address check: Passed
+2025-05-15 16:50:01,643 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-15 16:50:01,643 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-15 16:50:03,169 - PhishingDetector - INFO - Domain age check: Passed (domain is 1642 days old)
+2025-05-15 16:50:03,169 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-15 16:50:03,169 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-15 16:50:03,169 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-15 16:50:03,169 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-15 16:50:03,170 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-15 16:50:03,170 - PhishingDetector - INFO - Fake security indicators: Failed (4 found)
+2025-05-15 16:50:03,170 - PhishingDetector - INFO - Sensitive info requests: Failed (3 types found)
+2025-05-15 16:50:03,172 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-15 16:50:03,172 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-15 16:50:03,172 - PhishingDetector - INFO - Total phishing score: 35.5
+2025-05-15 16:50:03,172 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 10.5, 'url_length': 0, 'special_chars': 0, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 5.0, 'sensitive_info_requests': 20, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-15 16:50:03,935 - PhishingDetector - INFO - Analyzing URL: https://blog.isiraadithya.com/
+2025-05-15 16:50:03,946 - PhishingDetector - INFO - Suspicious terms score: 10.5
+2025-05-15 16:50:03,946 - PhishingDetector - INFO - URL length: Passed
+2025-05-15 16:50:03,946 - PhishingDetector - INFO - Special characters: Passed
+2025-05-15 16:50:03,946 - PhishingDetector - INFO - IP address check: Passed
+2025-05-15 16:50:03,946 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-15 16:50:03,946 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-15 16:50:05,713 - PhishingDetector - INFO - Domain age check: Passed (domain is 1642 days old)
+2025-05-15 16:50:05,713 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-15 16:50:05,713 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-15 16:50:05,714 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-15 16:50:05,714 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-15 16:50:05,714 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-15 16:50:05,714 - PhishingDetector - INFO - Fake security indicators: Failed (4 found)
+2025-05-15 16:50:05,714 - PhishingDetector - INFO - Sensitive info requests: Failed (3 types found)
+2025-05-15 16:50:05,714 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-15 16:50:05,714 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-15 16:50:05,714 - PhishingDetector - INFO - Total phishing score: 35.5
+2025-05-15 16:50:05,714 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 10.5, 'url_length': 0, 'special_chars': 0, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 5.0, 'sensitive_info_requests': 20, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-15 16:50:06,212 - PhishingDetector - INFO - Analyzing URL: https://blog.isiraadithya.com/posts
+2025-05-15 16:50:06,222 - PhishingDetector - INFO - Suspicious terms score: 6.0
+2025-05-15 16:50:06,222 - PhishingDetector - INFO - URL length: Passed
+2025-05-15 16:50:06,222 - PhishingDetector - INFO - Special characters: Passed
+2025-05-15 16:50:06,222 - PhishingDetector - INFO - IP address check: Passed
+2025-05-15 16:50:06,222 - PhishingDetector - INFO - Deceptive HTTPS domain: Passed
+2025-05-15 16:50:06,222 - PhishingDetector - INFO - HTTPS check: Passed
+2025-05-15 16:50:07,925 - PhishingDetector - INFO - Domain age check: Passed (domain is 1642 days old)
+2025-05-15 16:50:07,925 - PhishingDetector - INFO - Password fields check: Passed
+2025-05-15 16:50:07,925 - PhishingDetector - INFO - Excessive form fields: Passed
+2025-05-15 16:50:07,929 - PhishingDetector - INFO - Hidden elements check: Passed
+2025-05-15 16:50:07,929 - PhishingDetector - INFO - Iframe check: Passed
+2025-05-15 16:50:07,931 - PhishingDetector - INFO - Urgency language check: Passed
+2025-05-15 16:50:07,931 - PhishingDetector - INFO - Fake security indicators: Failed (4 found)
+2025-05-15 16:50:07,933 - PhishingDetector - INFO - Sensitive info requests: Failed (3 types found)
+2025-05-15 16:50:07,934 - PhishingDetector - INFO - Countdown timer: Passed
+2025-05-15 16:50:07,934 - PhishingDetector - INFO - Brand impersonation: Passed
+2025-05-15 16:50:07,934 - PhishingDetector - INFO - Total phishing score: 31.0
+2025-05-15 16:50:07,934 - PhishingDetector - INFO - Score breakdown: {'suspicious_terms': 6.0, 'url_length': 0, 'special_chars': 0, 'ip_address': 0, 'deceptive_https': 0, 'https': 0, 'domain_age': 0, 'password_fields': 0, 'excessive_forms': 0, 'hidden_elements': 0, 'iframes': 0, 'urgency_language': 0, 'fake_security': 5.0, 'sensitive_info_requests': 20, 'countdown_timer': 0, 'brand_impersonation': 0}
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - maxp pruned
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - LTSH dropped
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - hdmx dropped
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - cmap pruned
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - kern pruned
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - post pruned
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - PCLT dropped
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - JSTF dropped
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - DSIG dropped
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - GDEF dropped
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - GSUB dropped
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - glyf pruned
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - Added gid0 to subset
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - Added first four glyphs to subset
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - Closing glyph list over 'glyf': 58 glyphs before
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - Glyph names: ['.notdef', '.null', 'A', 'B', 'G', 'H', 'L', 'M', 'P', 'R', 'S', 'U', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'k', 'l', 'less', 'm', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'percent', 'period', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'u', 'v', 'w', 'x', 'y', 'zero']
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - Glyph IDs:   [0, 1, 2, 3, 8, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 36, 37, 42, 43, 47, 48, 51, 53, 54, 56, 68, 69, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 94, 96]
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - Closed glyph list over 'glyf': 58 glyphs after
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - Glyph names: ['.notdef', '.null', 'A', 'B', 'G', 'H', 'L', 'M', 'P', 'R', 'S', 'U', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'k', 'l', 'less', 'm', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'percent', 'period', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'u', 'v', 'w', 'x', 'y', 'zero']
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - Glyph IDs:   [0, 1, 2, 3, 8, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 36, 37, 42, 43, 47, 48, 51, 53, 54, 56, 68, 69, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 94, 96]
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - Retaining 58 glyphs
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - head subsetting not needed
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - hhea subsetting not needed
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - maxp subsetting not needed
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - OS/2 subsetting not needed
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - hmtx subsetted
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - VDMX subsetting not needed
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - cmap subsetted
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - fpgm subsetting not needed
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - prep subsetting not needed
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - cvt  subsetting not needed
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - loca subsetting not needed
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - kern subsetted
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - post subsetted
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - gasp subsetting not needed
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - name subsetting not needed
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - glyf subsetted
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - head pruned
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - OS/2 CodePage ranges pruned: [0]
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - glyf pruned
+2025-05-15 16:50:31,503 - fontTools.subset - INFO - name pruned
