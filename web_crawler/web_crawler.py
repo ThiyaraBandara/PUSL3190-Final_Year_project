@@ -73,8 +73,8 @@ class WebCrawler:
             # Extract the domain from the link
             link_domain_info = tldextract.extract(full_url)
             link_domain = f"{link_domain_info.domain}.{link_domain_info.suffix}"
-
-            # Check if the link's domain is the same as the base domain
+            if (link_domain_info.subdomain != ''):
+                link_domain = f"{link_domain_info.subdomain}.{link_domain_info.domain}.{link_domain_info.suffix}"
             if link_domain == base_domain:
                 self.crawl(full_url, depth + 1, dtlinks, origin_domain)  # Pass the origin_domain
 
