@@ -39,19 +39,25 @@
             </ul>
             <hr style="border: 1px dotted #ccc; margin: 32px 0;">
             <h4 style="margin-bottom: 32px; margin-top: 48px;">2. Navigate to the Project Directory</h4>
-            <p style="margin-bottom: 24px;">Once the project files are extracted from the ZIP (web_crawler.zip) or cloned from the repository:</p>
+             <p style="margin-bottom: 24px;">Once the project files are extracted from the ZIP (web_crawler.zip) or cloned from the repository:</p>
+
             <div class="code-block"><code>cd path/to/web_crawler</code></div>
             <p style="margin-bottom: 24px;">Replace <code>path/to/web_crawler</code> with the actual path where you extracted or cloned the project.</p>
+
             <hr style="border: 1px dotted #ccc; margin: 32px 0;">
+
             <h4 style="margin-bottom: 32px; margin-top: 48px;">3. Set Up a Virtual Environment (Optional but Recommended)</h4>
             <div class="code-block"><code>python -m venv venv
 source venv/bin/activate     # On Windows: venv\Scripts\activate</code></div>
             <hr style="border: 1px dotted #ccc; margin: 32px 0;">
+
             <h4 style="margin-bottom: 32px; margin-top: 48px;">4. Install Dependencies</h4>
             <p style="margin-bottom: 24px;">The project might include a requirements.txt file. Run the following command to install all the required Python libraries:</p>
             <div class="code-block"><code>pip install -r requirements.txt</code></div>
             <hr style="border: 1px dotted #ccc; margin: 32px 0;">
+            
             <h4 style="margin-bottom: 32px; margin-top: 48px;">5. Run the Tool</h4>
+
             <p style="margin-bottom: 24px;">The core of this phishing detection tool is a command-line program. To start the program, use:</p>
             <div class="code-block"><code>python main.py</code></div>
             <p style="margin-bottom: 24px;">If the entry script has a different name (e.g., app.py, cli.py, or similar), replace <code>main.py</code> with the appropriate filename.</p>
@@ -125,5 +131,15 @@ source venv/bin/activate     # On Windows: venv\Scripts\activate</code></div>
             </nav>
         </div>
     </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
 </body>
 </html> 

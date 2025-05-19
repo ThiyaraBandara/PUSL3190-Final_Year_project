@@ -69,7 +69,6 @@ def main():
     
     # Generate and print the report
     report_file = report_generator.generate_report(detected_links_by_origin)
-    print(f"Your report has been generated at {report_file}")
     
     # Close database connection
     db_manager.close_connection()

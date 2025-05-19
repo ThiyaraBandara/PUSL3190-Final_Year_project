@@ -196,6 +196,7 @@ class ReportGenerator:
         self.pdf.cell(0, 10, 'Detailed Analysis By Website', ln=True, align='C')
         
         # Process each website's results separately
+
         for domain, links in detected_links_by_origin.items():
             # Skip if no links found for this domain
             if not links:
@@ -221,7 +222,11 @@ class ReportGenerator:
                 self.pdf.cell(50, 10, 'Phishing Score', 1, 1, 'C')
                 # Add URLs for this domain
                 self.pdf.set_font('Arial', '', 10)
+                self.temp_processed_links = set()
                 for link in links:
+                    # Skip if this URL has already been processed
+                    if link.get('url', 'Unknown URL') in self.temp_processed_links:
+                        continue
                     # Calculate score color
                     score = float(link.get('phishing_score', 0))
                     if score >= 70:
@@ -234,6 +239,8 @@ class ReportGenerator:
                     url_text = str(link.get('url', 'Unknown URL'))[:80]
                     self.pdf.cell(140, 10, url_text, 1, 0)
                     self.pdf.cell(50, 10, f"{score}%", 1, 1, 'C')
+                    # Add to processed links to avoid duplicates
+                    self.temp_processed_links.add(link.get('url', 'Unknown URL'))
                 # Reset text color
                 self.pdf.set_text_color(0, 0, 0)
                 # Add domain summary - Check if we need a new page before summary

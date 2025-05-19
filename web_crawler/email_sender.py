@@ -46,8 +46,6 @@ def send_email(report_filename, receiver_email):
         print(f"Email sent successfully to {receiver_email}")
     except Exception as e:
         print(f"Failed to send email: {e}")
-        # For more detailed error information
-        import traceback
-        traceback.print_exc()
+        
 
 

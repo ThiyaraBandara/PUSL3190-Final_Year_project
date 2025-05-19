@@ -67,6 +67,9 @@ class WebCrawler:
         # Extract the domain with subdomains for filtering
         base_domain_info = tldextract.extract(base_url)
         base_domain = f"{base_domain_info.domain}.{base_domain_info.suffix}"
+        if (base_domain_info.subdomain != ''):
+                base_domain = f"{base_domain_info.subdomain}.{base_domain_info.domain}.{base_domain_info.suffix}"
+                pass
 
         for link in soup.find_all('a', href=True):
             full_url = urljoin(base_url, link['href'])
